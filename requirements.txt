@@ -1,0 +1,4 @@
+# Esempio, modifica in base al tuo classificatore
+numpy
+tensorflow  # o pytorch, se lo usi
+opencv-python
