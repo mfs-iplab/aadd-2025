@@ -28,8 +28,11 @@ The dataset includes thousands of deepfake images generated using advanced techn
 2. Install the dependencies: `pip install -r requirements.txt`.
 3. Run the classifier: `python code/classifier.py`.
 
-## License
-Dataset and code under CC0.
+## License.
+The dataset and code are under CC BY-NC 4.0 with restriction:
+- **Attribution**: You must cite “Mirko Rossi” and the paper “Deepfake Detection, Rossi et al., 2025.”
+- **Noncommercial**: Commercial use prohibited.
+- **Challenge only**: The dataset can only be used for the “Deepfake Detection Challenge 2025.”
 
 ## Citation.
 - Paper: “Deepfake Detection, Rossi et al., 2025” (update with your title).
