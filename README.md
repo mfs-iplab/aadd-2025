@@ -1,39 +1,122 @@
-# aadd-2025
+# AADD-2025: Adversarial Attacks on Deepfake Detectors Challenge
 
-This repository contains a dataset of deepfake images and a classifier for the “Deepfake Detection Challenge 2025”.
+## 1st Adversarial Attacks on Deepfake Detectors: A Challenge in the Era of AI-Generated Media
 
-## Dataset Description.
-The dataset includes thousands of deepfake images generated using advanced techniques (e.g., GAN). The images represent human faces with synthetic alterations, useful for testing detection algorithms.
+**Grand Challenge at [ACM Multimedia 2025](https://acmmm2025.org/)**
 
-- **Image number**: ~50,000 (example, edit with your own number).
-- **Format**: JPG/PNG.
-- **Size**: 30 GB (full dataset).
+---
 
-## Challenge.
-“Deepfake Detection Challenge 2025” invites researchers to develop classifiers to distinguish real images from deepfakes. Use the dataset to train and test your model!
+## 🎯 Overview
 
-## Contents.
-- `sample_data/`: 10 sample images (5 MB).
-- `code/`: Classifier code (`classifier.py`).
-- Full dataset: Available on OneDrive.
+The AADD-2025 Challenge investigates adversarial vulnerabilities of deepfake detection models by generating adversarial perturbed deepfake images that evade state-of-the-art classifiers while maintaining high visual similarity to the original deepfake content. Given the increasing reliance on deepfake detectors in forensic analysis and content moderation, ensuring their robustness against adversarial attacks is of paramount importance.
 
-## Download.
-- **Complete Dataset**: [Download from OneDrive](INSERT-HERE-THE-LINK).
-- Instructions:
-  1. Download `Deepfake_Dataset.zip` (30 GB).
-  2. Extract to the root of the repo.
+## 🎪 Challenge Description
 
-## Usage.
-1. Download and extract the dataset from OneDrive.
-2. Install the dependencies: `pip install -r requirements.txt`.
-3. Run the classifier: `python code/classifier.py`.
+The goal of this challenge is to expose and address vulnerabilities in current deepfake detection systems by designing adversarial attacks that alter deepfake images—rendering them unrecognizable as synthetic content to 4 proposed classifiers—while preserving high visual similarity to the original images.
 
-## License.
-The dataset and code are under CC BY-NC 4.0 with restriction:
-- **Attribution**: You must cite “Mirko Rossi” and the paper “Deepfake Detection, Rossi et al., 2025.”
-- **Noncommercial**: Commercial use prohibited.
-- **Challenge only**: The dataset can only be used for the “Deepfake Detection Challenge 2025.”
+### Key Objectives:
+- **Adversarial Attack Generation**: Create perturbations that fool deepfake detectors
+- **Visual Quality Preservation**: Maintain high similarity to original images
+- **Robustness Testing**: Evaluate detection systems against sophisticated attacks
+- **Methodology Innovation**: Develop novel adversarial techniques
 
-## Citation.
-- Paper: “Deepfake Detection, Rossi et al., 2025” (update with your title).
-- Dataset: [INSERT-THEN-LINK]
+## 📊 Dataset Structure
+
+Participants will be provided with a comprehensive dataset divided into **sixteen subsets**:
+
+### High Quality Resolution:
+- **4 GAN-based models** (high quality)
+- **4 Diffusion-based models** (high quality)
+
+### Low Quality Resolution:
+- **4 GAN-based models** (low quality)
+- **4 Diffusion-based models** (low quality)
+
+**Note**: Participants must focus on the entire dataset across all subsets.
+
+## 📋 Submission Requirements
+
+1. **Adversarial Images**: Submit the generated adversarial deepfake images
+2. **Technical Abstract**: Provide a detailed description of your methodology
+3. **Results Documentation**: Include performance metrics and analysis
+
+## 🏆 Results & Rankings
+
+The challenge concluded with impressive participation from leading research institutions worldwide. Here are the final standings:
+
+| Rank | Team Name | Organization/Institution | Final Score |
+|------|-----------|-------------------------|-------------|
+| 🥇 1st | **MR-CAS** | University of Chinese Academy of Sciences | **2740** |
+| 🥈 2nd | **Safe AI** | UNIST (Ulsan National Institute of Science and Technology) | **2709** |
+| 🥉 3rd | **RoMa** | Fraunhofer SIT \| ATHENE Center | **2679** |
+| 4th | GRADIANT | Gradiant | 2631 |
+| 5th | DASH | Sungkyunkwan University | 2618 |
+| 6th | SecureML | University of Cagliari | 2490 |
+| 7th | MICV | Ant Group | 2434 |
+| 8th | WHU_PB | Wuhan University | 2354 |
+| 9th | The Adversaries | Singapore Institute of Technology | 2341 |
+| 10th | DeFakePol | Samsung Research Poland | 1665 |
+| 11th | False Negative | The Hong Kong Polytechnic University | 1602 |
+| 12th | VYAKRITI 2.0 | Apex Institute of technology Chandigarh University | 1041 |
+| 13th | MILab | University of Science and Technology of China | 110 |
+
+## 📅 Important Dates
+
+- **Final Paper Submission** (Top 3 Teams Only): June 30, 2025
+- **Announcement regarding full paper submission**: July 24, 2025
+- **Camera ready - Grand Challenge Solutions** (Top 3 Teams Only): August 01, 2025
+
+## 📝 Publication Opportunities
+
+The top 3 teams were invited to submit full-length papers describing their methods in detail. These papers underwent a rigorous review process managed by the challenge organizers, with accepted papers included in the ACM Multimedia 2025 proceedings.
+
+## 🎓 Impact & Significance
+
+Over the next 3-5 years, this challenge contributes to:
+- Development of more resilient deepfake detection methodologies
+- Mitigation of risks associated with adversarial manipulations
+- Advancement of robust AI systems for media authenticity
+- Enhanced security in digital forensics and content moderation
+
+## 👥 Organizing Committee
+
+### Chairs
+- **Luca Guarnera**, Research Fellow, luca.guarnera@unict.it  
+  *Department of Mathematics and Computer Science, University of Catania, Italy*
+- **Francesco Guarnera**, Research Fellow, francesco.guarnera@unict.it  
+  *Department of Mathematics and Computer Science, University of Catania, Italy*
+
+### Co-Chairs
+- **Sebastiano Battiato**, Full Professor, sebastiano.battiato@unict.it  
+  *Department of Mathematics and Computer Science, University of Catania, Italy*
+- **Giovanni Puglisi**, Associate Professor, puglisi@unica.it  
+  *Department of Mathematics and Computer Science, University of Cagliari, Italy*
+- **Zahid Akhtar**, Associate Professor, akhtarz@sunypoly.edu  
+  *State University of New York Polytechnic Institute, USA*
+
+### Dataset Committee
+- **Mirko Casu**, PhD Student, mirko.casu@phd.unict.it  
+  *Department of Mathematics and Computer Science, University of Catania, Italy*
+- **Orazio Pontorno**, PhD Student, orazio.pontorno@phd.unict.it  
+  *Department of Mathematics and Computer Science, University of Catania, Italy*
+- **Claudio Vittorio Ragaglia**, PhD Student, claudio.ragaglia@phd.unict.it  
+  *Department of Mathematics and Computer Science, University of Catania, Italy*
+
+## 📧 Contact Information
+
+**Main Contact**: Mirko Casu  
+**Email**: challenge.dff@gmail.com  
+**Address**: Dipartimento di Matematica e Informatica, Cittadella Universitaria - Viale A. Doria 6, Italy
+
+## 🌐 Related Resources
+
+- [ACM Multimedia 2025 Conference](https://acmmm2025.org/)
+- [Challenge Website](https://iplab.dmi.unict.it/mfs/acm-aadd-challenge-2025/)
+
+## 🏷️ Keywords
+
+`Deepfake Detection`, `Adversarial Attacks`, `Computer Vision`, `Digital Forensics`, `AI Security`, `Media Authentication`, `Challenge Competition`, `ACM Multimedia`
+
+---
+
+**Note**: This challenge represents a significant step forward in understanding and improving the robustness of deepfake detection systems against sophisticated adversarial attacks, contributing to the broader field of AI security and digital media authenticity.
