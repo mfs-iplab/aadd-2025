@@ -105,8 +105,7 @@ Over the next 3-5 years, this challenge contributes to:
 ## 📧 Contact Information
 
 **Main Contact**: Mirko Casu  
-**Email**: challenge.dff@gmail.com  
-**Address**: Dipartimento di Matematica e Informatica, Cittadella Universitaria - Viale A. Doria 6, Italy
+**Email**: challenge.dff@gmail.com 
 
 ## 🌐 Related Resources
 
