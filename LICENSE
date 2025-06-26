@@ -25,19 +25,9 @@ PLUS the following MANDATORY CITATION REQUIREMENTS:
 
 MANDATORY CITATION REQUIREMENTS:
 In addition to the standard CC BY-NC 4.0 attribution requirements, any use of 
-these Materials MUST include the following specific citations:
+these Materials MUST include the following specific citation:
 
-1. You MUST cite the AADD-2025 Challenge:
-
-   @misc{aadd_challenge_2025,
-     title={AADD-2025: Adversarial Attacks on Deepfake Detectors Challenge},
-     author={Guarnera, Luca and Guarnera, Francesco and Casu, Mirko and Pontorno, Orazio and Ragaglia, Claudio Vittorio and Battiato, Sebastiano and Puglisi, Giovanni and Akhtar, Zahid},
-     year={2025},
-     conference={ACM Multimedia 2025},
-     url={https://iplab.dmi.unict.it/mfs/acm-aadd-challenge-2025/}
-   }
-
-2. If using the dataset portion derived from WILD, you MUST also cite:
+1. If using the dataset portion derived from WILD, you MUST cite:
 
    @misc{bongini2025wildnewinthewildimage,
          title={WILD: a new in-the-Wild Image Linkage Dataset for synthetic image attribution}, 
