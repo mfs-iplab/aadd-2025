@@ -1,5 +1,7 @@
 # AADD-2025: Adversarial Attacks on Deepfake Detectors Challenge
 
+![Header Image](/assets/images/headernewaadd.jpg)
+
 ## 1st Adversarial Attacks on Deepfake Detectors: A Challenge in the Era of AI-Generated Media
 
 **Grand Challenge at [ACM Multimedia 2025](https://acmmm2025.org/)**
