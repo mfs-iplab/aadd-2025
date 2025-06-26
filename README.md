@@ -40,8 +40,7 @@ Participants were provided with a dataset divided into **sixteen subsets**:
 
 **Partial Evaluation Script**: [Download here](https://iplab.dmi.unict.it/mfs/acm-aadd-challenge-2025/assets/imgs/AADD-2025-partial-test.tgz)
 
-**Final Evaluation Scripts** (including those for the 4 models) via secure link:  
-🔗 [https://www.swisstransfer.com/d/ea2ae98c-1bd7-4259-9edf-6f801c5a7afc](https://www.swisstransfer.com/d/ea2ae98c-1bd7-4259-9edf-6f801c5a7afc) (valid for 15 days from June 26; password provided via email to teams)
+**Final Evaluation Scripts** [Download here](https://bit.ly/finalevalscript)
 
 ## 🏆 Results & Rankings
 
