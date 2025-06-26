@@ -36,6 +36,13 @@ Participants were provided with a dataset divided into **sixteen subsets**:
 2. **Technical Abstract**: Provide a detailed description of your methodology
 3. **Results Documentation**: Include performance metrics and analysis
 
+## 📥 Evaluation Resources
+
+**Partial Evaluation Script**: [Download here](https://iplab.dmi.unict.it/mfs/acm-aadd-challenge-2025/assets/imgs/AADD-2025-partial-test.tgz)
+
+**Final Evaluation Scripts** (including those for the 4 models) via secure link:  
+🔗 [https://www.swisstransfer.com/d/ea2ae98c-1bd7-4259-9edf-6f801c5a7afc](https://www.swisstransfer.com/d/ea2ae98c-1bd7-4259-9edf-6f801c5a7afc) (valid for 15 days from today; password provided via email to teams)
+
 ## 🏆 Results & Rankings
 
 The challenge ended with strong global participation. Here are the final standings:
@@ -58,9 +65,31 @@ The challenge ended with strong global participation. Here are the final standin
 
 ## 📅 Important Dates
 
+**Challenge Timeline:**
+- **March 03, 2025**: Website online
+- **March 15 - May 22, 2025**: Registration (Extended)
+- **April 10, 2025**: Test set and classificator release
+- **June 15, 2025**: Submission results
+- **June 22, 2025**: Leaderboard Publication
+
+**Post-Challenge:**
 - **Final Paper Submission** (Top 3 Teams Only): June 30, 2025
 - **Announcement regarding full paper submission**: July 24, 2025
 - **Camera ready - Grand Challenge Solutions** (Top 3 Teams Only): August 01, 2025
+
+## 📊 Timeline - COMPLETED ✅
+
+The AADD-2025 Challenge followed this timeline:
+
+- ✅ **March 03, 2025**: Competition Website Launch  
+- ✅ **March 15 - May 22, 2025**: Registration Period (Extended)
+- ✅ **April 10, 2025**: Test Set and Classificator Release  
+- ✅ **June 15, 2025**: Final Submission Deadline  
+- ✅ **June 22, 2025**: Leaderboard Publication and Rankings Release
+- ⏳ **June 30, 2025**: Paper Submission Deadline (Top 3 Teams Only)
+- ⏳ **July 24, 2025**: Announcement regarding full paper submission
+- ⏳ **August 01, 2025**: Camera ready - Grand Challenge Solutions (Top 3 Teams Only)
+- ⏳ **ACM Multimedia 2025**: Conference & Winners Recognition
 
 ## 📝 Publication Opportunities
 
@@ -92,6 +121,34 @@ The top 3 teams were invited to submit full-length papers describing their metho
 
 **Main Contact**: Mirko Casu  
 **Email**: challenge.dff@gmail.com 
+
+## 📖 Citation
+
+If you use this challenge data or reference this work, please cite:
+
+```bibtex
+@misc{aadd_challenge_2025,
+  title={AADD-2025: Adversarial Attacks on Deepfake Detectors Challenge},
+  author={Guarnera, Luca and Guarnera, Francesco and Casu, Mirko and Pontorno, Orazio and Ragaglia, Claudio Vittorio and Battiato, Sebastiano and Puglisi, Giovanni and Akhtar, Zahid},
+  year={2025},
+  conference={ACM Multimedia 2025},
+  url={https://iplab.dmi.unict.it/mfs/acm-aadd-challenge-2025/}
+}
+```
+
+**Dataset Attribution**: Part of this challenge dataset is based on the WILD dataset. If you use the data, please also cite:
+
+```bibtex
+@misc{bongini2025wildnewinthewildimage,
+      title={WILD: a new in-the-Wild Image Linkage Dataset for synthetic image attribution}, 
+      author={Pietro Bongini and Sara Mandelli and Andrea Montibeller and Mirko Casu and Orazio Pontorno and Claudio Vittorio Ragaglia and Luca Zanchetta and Mattia Aquilina and Taiba Majid Wani and Luca Guarnera and Benedetta Tondi and Giulia Boato and Paolo Bestagini and Irene Amerini and Francesco De Natale and Sebastiano Battiato and Mauro Barni},
+      year={2025},
+      eprint={2504.19595},
+      archivePrefix={arXiv},
+      primaryClass={cs.MM},
+      url={https://arxiv.org/abs/2504.19595}, 
+}
+```
 
 ## 🌐 Related Resources
 
