@@ -63,21 +63,7 @@ The challenge ended with strong global participation. Here are the final standin
 | 12th | VYAKRITI 2.0 | Apex Institute of technology Chandigarh University | 1041 |
 | 13th | MILab | University of Science and Technology of China | 110 |
 
-## 📅 Important Dates
-
-**Challenge Timeline:**
-- **March 03, 2025**: Website online
-- **March 15 - May 22, 2025**: Registration (Extended)
-- **April 10, 2025**: Test set and classificator release
-- **June 15, 2025**: Submission results
-- **June 22, 2025**: Leaderboard Publication
-
-**Post-Challenge:**
-- **Final Paper Submission** (Top 3 Teams Only): June 30, 2025
-- **Announcement regarding full paper submission**: July 24, 2025
-- **Camera ready - Grand Challenge Solutions** (Top 3 Teams Only): August 01, 2025
-
-## 📊 Timeline - COMPLETED ✅
+## 📊 Timeline
 
 The AADD-2025 Challenge followed this timeline:
 
