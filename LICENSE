@@ -1,11 +1,100 @@
-Licensed under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+AADD-2025 Challenge License
+============================
+
+Copyright (c) 2025 University of Catania - Department of Mathematics and Computer Science
+Image Processing Laboratory (IPLAB) - Multimedia Security and Forensics (MSF) Group
+
+CREATIVE COMMONS ATTRIBUTION-NONCOMMERCIAL 4.0 INTERNATIONAL LICENSE
+WITH ADDITIONAL CITATION REQUIREMENTS
+
+This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 
+International License (CC BY-NC 4.0) with additional mandatory citation requirements.
+
+Base License: https://creativecommons.org/licenses/by-nc/4.0/
+
 You are free to:
-- Share: copy and redistribute the material in any medium or format.
-- Adapt: remix, transform, and build upon the material.
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material
 
 Under the following terms:
-- Attribution: You must give appropriate credit to the original author (Mirko Rossi) and cite the paper "Deepfake Detection, Rossi et al., 2025".
-- NonCommercial: You may not use the material for commercial purposes.
-- Restricted Use: This dataset may only be used for the "Deepfake Detection Challenge 2025" and not for any other purpose.
+- Attribution — You must give appropriate credit, provide a link to the license, 
+  and indicate if changes were made
+- NonCommercial — You may not use the material for commercial purposes
 
-Full license: https://creativecommons.org/licenses/by-nc/4.0/
+PLUS the following MANDATORY CITATION REQUIREMENTS:
+
+MANDATORY CITATION REQUIREMENTS:
+In addition to the standard CC BY-NC 4.0 attribution requirements, any use of 
+these Materials MUST include the following specific citations:
+
+1. You MUST cite the AADD-2025 Challenge:
+
+   @misc{aadd_challenge_2025,
+     title={AADD-2025: Adversarial Attacks on Deepfake Detectors Challenge},
+     author={Guarnera, Luca and Guarnera, Francesco and Casu, Mirko and Pontorno, Orazio and Ragaglia, Claudio Vittorio and Battiato, Sebastiano and Puglisi, Giovanni and Akhtar, Zahid},
+     year={2025},
+     conference={ACM Multimedia 2025},
+     url={https://iplab.dmi.unict.it/mfs/acm-aadd-challenge-2025/}
+   }
+
+2. If using the dataset portion derived from WILD, you MUST also cite:
+
+   @misc{bongini2025wildnewinthewildimage,
+         title={WILD: a new in-the-Wild Image Linkage Dataset for synthetic image attribution}, 
+         author={Pietro Bongini and Sara Mandelli and Andrea Montibeller and Mirko Casu and Orazio Pontorno and Claudio Vittorio Ragaglia and Luca Zanchetta and Mattia Aquilina and Taiba Majid Wani and Luca Guarnera and Benedetta Tondi and Giulia Boato and Paolo Bestagini and Irene Amerini and Francesco De Natale and Sebastiano Battiato and Mauro Barni},
+         year={2025},
+         eprint={2504.19595},
+         archivePrefix={arXiv},
+         primaryClass={cs.MM},
+         url={https://arxiv.org/abs/2504.19595}, 
+   }
+
+ADDITIONAL REQUIREMENTS BEYOND CC BY-NC 4.0:
+
+ADDITIONAL REQUIREMENTS BEYOND CC BY-NC 4.0:
+- Any publications, presentations, or derivative works using these Materials must
+  prominently display the required citations in the reference section
+- Redistributions must include this license file and maintain all attribution
+  requirements
+- Users must acknowledge the University of Catania and the organizing committee
+  in any work derived from these Materials
+
+EXAMPLES OF PROPER USE:
+✓ Academic research publications with proper citations
+✓ Educational use in courses with attribution
+✓ Benchmarking studies citing the challenge and datasets
+✓ Open-source research tools with acknowledgments
+
+EXAMPLES OF PROHIBITED USE:
+✗ Commercial products or services
+✗ Distribution without proper citations
+✗ Use without CC BY-NC 4.0 compliance
+✗ Misrepresentation of the source or origin
+
+NO ADDITIONAL RESTRICTIONS:
+You may not apply legal terms or technological measures that legally restrict 
+others from doing anything this license permits, in accordance with CC BY-NC 4.0.
+
+FULL LICENSE TEXT:
+For the complete Creative Commons Attribution-NonCommercial 4.0 International 
+License terms, see: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+DISCLAIMER (CC BY-NC 4.0 Standard):
+Unless otherwise separately undertaken by the Licensor, to the extent possible, 
+the Licensor offers the Licensed Material as-is and as-available, and makes no 
+representations or warranties of any kind concerning the Licensed Material, 
+whether express, implied, statutory, or other.
+
+CONTACT:
+For commercial licensing inquiries or permissions beyond the scope of this license,
+please contact:
+- Email: challenge.dff@gmail.com
+- Institution: University of Catania, Department of Mathematics and Computer Science
+- Website: https://iplab.dmi.unict.it/mfs/
+
+LICENSE SUMMARY:
+This work is licensed under CC BY-NC 4.0 with additional mandatory citation 
+requirements. You must cite both the AADD-2025 Challenge and the WILD dataset 
+(where applicable) in any use of this material.
+
+License effective as of June 26, 2025.
