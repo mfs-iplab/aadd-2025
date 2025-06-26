@@ -38,7 +38,7 @@ Participants were provided with a dataset divided into **sixteen subsets**:
 
 ## 🏆 Results & Rankings
 
-The challenge concluded with impressive participation from leading research institutions worldwide. Here are the final standings:
+The challenge ended with strong global participation. Here are the final standings:
 
 | Rank | Team Name | Organization/Institution | Final Score |
 |------|-----------|-------------------------|-------------|
