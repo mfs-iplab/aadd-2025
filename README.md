@@ -70,37 +70,27 @@ The challenge concluded with impressive participation from leading research inst
 
 The top 3 teams were invited to submit full-length papers describing their methods in detail. These papers underwent a rigorous review process managed by the challenge organizers, with accepted papers included in the ACM Multimedia 2025 proceedings.
 
-## 🎓 Impact & Significance
-
-Over the next 3-5 years, this challenge contributes to:
-- Development of more resilient deepfake detection methodologies
-- Mitigation of risks associated with adversarial manipulations
-- Advancement of robust AI systems for media authenticity
-- Enhanced security in digital forensics and content moderation
-
 ## 👥 Organizing Committee
 
 ### Chairs
-- **Luca Guarnera**, Research Fellow, luca.guarnera@unict.it  
-  *Department of Mathematics and Computer Science, University of Catania, Italy*
-- **Francesco Guarnera**, Research Fellow, francesco.guarnera@unict.it  
-  *Department of Mathematics and Computer Science, University of Catania, Italy*
+| Name | Role | Email | Affiliation |
+|------|------|-------|-------------|
+| **Luca Guarnera** | Research Fellow | luca.guarnera@unict.it | Department of Mathematics and Computer Science, University of Catania, Italy |
+| **Francesco Guarnera** | Research Fellow | francesco.guarnera@unict.it | Department of Mathematics and Computer Science, University of Catania, Italy |
 
 ### Co-Chairs
-- **Sebastiano Battiato**, Full Professor, sebastiano.battiato@unict.it  
-  *Department of Mathematics and Computer Science, University of Catania, Italy*
-- **Giovanni Puglisi**, Associate Professor, puglisi@unica.it  
-  *Department of Mathematics and Computer Science, University of Cagliari, Italy*
-- **Zahid Akhtar**, Associate Professor, akhtarz@sunypoly.edu  
-  *State University of New York Polytechnic Institute, USA*
+| Name | Role | Email | Affiliation |
+|------|------|-------|-------------|
+| **Sebastiano Battiato** | Full Professor | sebastiano.battiato@unict.it | Department of Mathematics and Computer Science, University of Catania, Italy |
+| **Giovanni Puglisi** | Associate Professor | puglisi@unica.it | Department of Mathematics and Informatics, University of Cagliari, Italy |
+| **Zahid Akhtar** | Associate Professor | akhtarz@sunypoly.edu | State University of New York Polytechnic Institute, USA |
 
 ### Dataset Committee
-- **Mirko Casu**, PhD Student, mirko.casu@phd.unict.it  
-  *Department of Mathematics and Computer Science, University of Catania, Italy*
-- **Orazio Pontorno**, PhD Student, orazio.pontorno@phd.unict.it  
-  *Department of Mathematics and Computer Science, University of Catania, Italy*
-- **Claudio Vittorio Ragaglia**, PhD Student, claudio.ragaglia@phd.unict.it  
-  *Department of Mathematics and Computer Science, University of Catania, Italy*
+| Name | Role | Email | Affiliation |
+|------|------|-------|-------------|
+| **Mirko Casu** | PhD Student | mirko.casu@phd.unict.it | Department of Mathematics and Computer Science, University of Catania, Italy |
+| **Orazio Pontorno** | PhD Student | orazio.pontorno@phd.unict.it | Department of Mathematics and Computer Science, University of Catania, Italy |
+| **Claudio Vittorio Ragaglia** | PhD Student | claudio.ragaglia@phd.unict.it | Department of Mathematics and Computer Science, University of Catania, Italy |
 
 ## 📧 Contact Information
 
@@ -112,10 +102,18 @@ Over the next 3-5 years, this challenge contributes to:
 - [ACM Multimedia 2025 Conference](https://acmmm2025.org/)
 - [Challenge Website](https://iplab.dmi.unict.it/mfs/acm-aadd-challenge-2025/)
 
+**Institutional Affiliations:**
+- **University of Catania** - [Department of Mathematics and Computer Science](https://web.dmi.unict.it/en)
+- **University of Cagliari** - [Department of Mathematics and Informatics](https://web.unica.it/unica/en/dip_matinfo.page)
+- **State University of New York Polytechnic Institute** - [Website](https://sunypoly.edu/)
+
+© 2025 [University of Catania](https://www.unict.it/en).  
+Powered by the [Multimedia Security and Forensics](https://iplab.dmi.unict.it/mfs/) group of the [Image Processing Laboratory (IPLAB)](https://iplab.dmi.unict.it/).
+
 ## 🏷️ Keywords
 
 `Deepfake Detection`, `Adversarial Attacks`, `Computer Vision`, `Digital Forensics`, `AI Security`, `Media Authentication`, `Challenge Competition`, `ACM Multimedia`
 
 ---
 
-**Note**: This challenge represents a significant step forward in understanding and improving the robustness of deepfake detection systems against sophisticated adversarial attacks, contributing to the broader field of AI security and digital media authenticity.
+![Logos](/assets/images/loghiunictiplab.png)
