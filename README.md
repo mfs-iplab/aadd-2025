@@ -110,18 +110,6 @@ The top 3 teams were invited to submit full-length papers describing their metho
 
 ## 📖 Citation
 
-If you use this challenge data or reference this work, please cite:
-
-```bibtex
-@misc{aadd_challenge_2025,
-  title={AADD-2025: Adversarial Attacks on Deepfake Detectors Challenge},
-  author={Guarnera, Luca and Guarnera, Francesco and Casu, Mirko and Pontorno, Orazio and Ragaglia, Claudio Vittorio and Battiato, Sebastiano and Puglisi, Giovanni and Akhtar, Zahid},
-  year={2025},
-  conference={ACM Multimedia 2025},
-  url={https://iplab.dmi.unict.it/mfs/acm-aadd-challenge-2025/}
-}
-```
-
 **Dataset Attribution**: Part of this challenge dataset is based on the WILD dataset. If you use the data, please also cite:
 
 ```bibtex
