@@ -155,4 +155,4 @@ Powered by the [Multimedia Security and Forensics](https://iplab.dmi.unict.it/mf
 
 ---
 
-![Logos](/assets/images/loghiunictiplab.png)
+![Logos](/assets/images/loghiunictiplab2.png)
