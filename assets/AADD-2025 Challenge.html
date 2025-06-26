@@ -1,0 +1,2594 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://iplab.dmi.unict.it/mfs/acm-aadd-challenge-2025/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Deepfake Forensics: Detection, Attribution, Recognition, and Adversarial Challenges in the Era of AI-Generated Media">
+    <meta name="author" content="Deepfake Forensics: Detection, Attribution, Recognition, and Adversarial Challenges in the Era of AI-Generated Media">
+    <title>AADD-2025 Challenge</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="./AADD-2025 Challenge_files/themify-icons.css">
+    <!-- Bootstrap + custom main styles -->
+	<link rel="stylesheet" href="./AADD-2025 Challenge_files/custom.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" cz-shortcut-listen="true">
+    
+    <header class="header">
+        <div class="container">
+           <!-- <ul class="social-icons pt-3">
+            	<li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/###"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://twitter.com/###"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+               
+                <li class="social-item"><a class="social-link text-light" href="https://github.com/##"><i class="ti-github" aria-hidden="true"></i></a></li>
+                
+            </ul>  -->
+            <div class="header-content">
+                <!--<h4 class="header-subtitle" >Hello, I am</h4>-->
+                <h1 class="header-title">AADD-2025</h1>
+                <h5 class="header-mono">1st Adversarial Attacks on Deepfake Detectors: A Challenge in the Era of AI-Generated Media</h5>
+                <h3 class="header-mono">Grand Challenege at <a target="_blank" href="https://acmmm2025.org/">ACM Multimedia 2025</a></h3>
+                <!--<button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Print Resume</button>-->
+            </div>
+        </div>
+    </header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white affix" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="https://iplab.dmi.unict.it/mfs/acm-aadd-challenge-2025/#home" class="nav-link">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="https://iplab.dmi.unict.it/mfs/acm-aadd-challenge-2025/#main_contact" class="nav-link">Description and contact</a>
+                    </li>
+                    
+                </ul>
+                <ul class="navbar-nav brand">
+                    <img src="./AADD-2025 Challenge_files/avatar.jpg" alt="" class="brand-img">
+                    <li class="brand-txt">
+                        <h5 class="brand-title">AADD-2025</h5>
+                        <div class="brand-subtitle">1st AADD Challenge- Adversarial Attacks on Deepfake Detectors: A Challenge in the Era of AI-Generated Media - ACM Multimedia 2025</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="https://iplab.dmi.unict.it/mfs/acm-aadd-challenge-2025/#important" class="nav-link">Dates</a>
+                    </li>
+                    <li class="nav-item last-item">
+                        <a href="https://iplab.dmi.unict.it/mfs/acm-aadd-challenge-2025/#info" class="nav-link active">Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://iplab.dmi.unict.it/mfs/acm-aadd-challenge-2025/#organizers" class="nav-link">Organizers</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="news" class="container-fluid">
+        <div class="row about-section">
+          
+            <div class="col-lg-12 mt-5">
+                <div class="container about-section">
+                    <h2><span class="text-danger">News and info</span></h2>
+                    <div class="row">
+        
+                        <div class="col-md-12 col-lg-12">
+                            <div class="card" style="border: none">
+                       
+                                <div class="card-body" style="text-align: justify;">
+                                    
+                                   
+                                    <ul> 
+                                        <li><h5> <u style="margin-right:20px">2025/06/11</u>Evaluation script released (<a href="https://iplab.dmi.unict.it/mfs/acm-aadd-challenge-2025/assets/imgs/AADD-2025-partial-test.tgz">Download</a>)</h5></li>
+                                         <li><h5> <u style="margin-right:20px">2025/05/15</u>Extended deadline at May 22</h5></li>
+                                        <li><h5> <u style="margin-right:20px">2025/04/10</u>We started to release the data to the participants.</h5></li>
+                                        <li><h5> <u style="margin-right:20px">2025/03/15</u>Registration opened!</h5></li>
+                                        <li><h5> <u style="margin-right:20px">2025/03/04</u>Deadlines updated!</h5></li>
+                                        <li><h5> <u style="margin-right:20px">2025/03/04</u>Information for Authors are available <a href="https://acmmm2025.org/information-for-authors/" target="_blank"> here </a></h5></li>
+                                        <li><h5> <u style="margin-right:20px">2025/03/03</u> WEBSITE online!</h5></li>
+                                    </ul>
+                                 
+                            </div>
+                        </div>
+        
+                        
+                        
+                        </div>
+                    </div>
+</div></div>
+</div>
+</div>
+    
+
+
+
+
+
+
+
+
+    <div id="main_contact" class="container-fluid about-section">
+        <div class="row about-section">
+          
+            
+            <div class="col-lg-6 " style="margin-top: 60px;">
+                
+                <div class="card" style="border: none">
+           
+                            <h3 class="font-weight-light">Brief Description</h3>
+                            <span class="line mb-2"></span>
+                            <div style="text-align:justify">
+                                The goal of this challenge is to investigate adversarial vulnerabilities of deepfake detection models by generating adversarial perturbed deepfake images that evade state-of-the-art classifiers while maintaining high visual similarity to the original deepfake content. Given the increasing reliance on deepfake detectors in forensic analysis and content moderation, ensuring their robustness against adversarial attacks is of paramount importance. Over the next 3-5 years, this challenge will contribute to the development of more resilient deepfake detection methodologies, mitigating risks associated with adversarial manipulations.<br><br>
+                                The aim of this challenge is to expose and address vulnerabilities in current deepfake detection systems by designing adversarial attacks that alter deepfake images—rendering them unrecognizable as synthetic content to 4 proposed classifiers—while preserving high visual similarity to the original images. Participants will be provided with one dataset, divided into sixteen subsets: four GAN-based models and four diffusion-based models in high quality resolution, and four GAN-based models and four diffusion-based models in low quality resolution. Participants must focus on the entire dataset. In addition to developing effective adversarial perturbations, participants are required to submit an abstract that outlines their methodology and attach the adversarial images.
+                                <!--<h6 style="color:red">The 3 best solutions will have the opportunity to publish their method (after reviewing paper) as ACM Proceedings! </h6>-->
+                              </div>
+                        </div>
+
+                        <div class="card" style="border: none">
+           
+                            <h3 class="font-weight-light">Registration Process</h3>
+                            <span class="line mb-2"></span>
+                            <div style="text-align:justify">
+                                To register for the challenge, please send an email to the main contact, Mirko Casu (challenge.dff@gmail.com), providing the following information: 
+                                <ul>
+                                    <li>Name of Team </li>
+                                    <li>List of teammates (Name, Surname, Nationality, Organization) </li>
+                                    <li>Team email </li>
+                                    <li>Team referent (a teammate) </li>
+                                    <li>Organization/Institution </li>
+                                </ul>
+                                Participation in the AADD-2025 challenge offers an opportunity to contribute to cutting-edge research in Adversarial Attacks on Deepfake Detectors while showcasing your expertise and innovative solutions. 
+                              </div>
+                        </div>
+               
+         
+</div>
+<div class="col-lg-6" style="margin-top: 60px;">
+                
+    <div class="card" style="border: none">
+                    <h3 class="font-weight-light">Chairs</h3>
+                    <span class="line mb-2"></span>
+                    <ul class="mt40 info list-unstyled">
+                        <li><span>Luca Guarnera</span>, Research Fellow, luca.guarnera@unict.it (Department of Mathematics and Computer
+                            Science, University of Catania, Italy)</li>
+                        <li><span>Francesco Guarnera</span>, Research Fellow, francesco.guarnera@unict.it (Department of Mathematics and Computer
+                            Science, University of Catania, Italy)</li>                       
+                </ul>
+                <h3 class="font-weight-light">Co-Chairs</h3>
+                    <span class="line mb-2"></span>
+                    <ul class="mt40 info list-unstyled">
+                        <li><span>Sebastiano Battiato</span>, Full Professor, sebastiano.battiato@unict.it (Department of Mathematics and Computer
+                            Science, University of Catania, Italy)</li>
+                        <li><span>Giovanni Puglisi</span>, Associate Professor, puglisi@unica.it (Department of Mathematics and Computer
+                        Science, University of Cagliari, Italy)</li>
+                        <li><span>Zahid Akhtar</span>, Associate Professor, akhtarz@sunypoly.edu  (State University of New York Polytechnic Institute, USA)</li>
+                </ul>
+                <h3 class="font-weight-light">Dataset Committee</h3>
+                    <span class="line mb-2"></span>
+                    <ul class="mt40 info list-unstyled">
+                        <li><span>Mirko Casu</span>, PhD Student, , mirko.casu@phd.unict.it (Department of Mathematics and Computer
+                            Science, University of Catania, Italy)</li>
+                        <li><span>Orazio Pontorno</span>, PhD Student,  orazio.pontorno@phd.unict.it  (Department of Mathematics and Computer
+                            Science, University of Catania, Italy)</li>
+                        <li><span>Claudio Vittorio Ragaglia</span>, PhD Student, claudio.ragaglia@phd.unict.it (Department of Mathematics and Computer
+                                Science, University of Catania, Italy)</li>
+                </ul>
+                <h3 class="font-weight-light">Main Contact</h3>
+                <span class="line mb-2"></span>
+                <ul class="mt40 info list-unstyled">
+                    <li><span>Name</span> : Mirko Casu</li>
+                    <li><span>Email</span> :  challenge.dff@gmail.com</li>
+                    <!--<li><span>Phone</span> : + (123) 456-7890</li>
+                    <li><span>Skype</span> : John_Doe </li>-->
+                    <li><span>Address</span> :  Dipartimento di Matematica e Informatica Cittadella Universitaria - Viale A. Doria 6 – Italy.</li>
+                    <!--<li><span>Indicators</span> :  <a href="https://scholar.google.com/citations?user=DyGUX9IAAAAJ&hl=it">Google Scholar</a> -  <a href="https://www.scopus.com/authid/detail.uri?authorId=57211180426">Scopus</a></li>-->
+                </ul>
+                
+               
+
+                            
+                            
+                            
+            </div>
+   
+
+</div>
+            
+    </div>
+
+
+
+
+    <div id="important" class="container-fluid">
+        <div class="row about-section">
+          
+            <div class="col-lg-12 mt-5">
+                <div class="container about-section">
+                    <h2><span class="text-danger">Important dates</span></h2>
+                    <div class="row">
+        
+                        <div class="col-md-12 col-lg-12">
+                            <div class="card" style="border: none">
+                       
+                                <div class="card-body">
+                                    
+                                   <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded shadow mb-3" style="background-color: #5cf882 !important; ">
+                                     <div class="container">
+                                        <h5 style="color:white;margin-bottom: 0px">Website online [March 03]</h5>
+                                        
+                                     </div>
+                                  </nav>
+                                  <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded shadow mb-3" style="margin-top: 40px;background-color: #5cf882 !important;">
+                                    <div class="container">
+                                       <h5 style="color:white;margin-bottom: 0px">Registration [March 15 - May 22] - Extended</h5>
+                                    </div>
+                                 </nav>
+                                 <div>
+                                    To register for the challenge, please send an email to the main contact, Mirko Casu (challenge.dff@gmail.com), providing the following information: 
+                                <ul>
+                                    <li>Name of Team </li>
+                                    <li>List of teammates (Name, Surname, Nationality, Organization) </li>
+                                    <li>Team email </li>
+                                    <li>Team referent (a teammate) </li>
+                                    <li>Organization/Institution </li>
+                                </ul>
+                                Participation in the AADD-2025 challenge offers an opportunity to contribute to cutting-edge research in Adversarial Attacks on Deepfake Detectors while showcasing your expertise and innovative solutions. 
+
+                                <h4 style="padding: 20px;">List of registered teams (until now)</h4>
+                                <table class="table">
+                                    <tbody><tr><th></th><th>Team Name</th><th>Organization/Institution</th><th>Country</th></tr>
+                                    <tr><td>1</td><td>KR AISI</td><td>ETRI</td><td>South Korea</td></tr>
+                                    <tr><td>2</td><td>WHU_PB</td><td>Wuhan University</td><td>China</td></tr>
+                                    <tr><td>3</td><td>DASH</td><td>Sungkyunkwan University</td><td>South Korea</td></tr>
+                                    <tr><td>4</td><td>MICV</td><td>Ant Group</td><td>China</td></tr>
+                                    <tr><td>5</td><td>MBZUAI</td><td>Mohamed bin Zayed University of Artificial Intelligence</td><td>Abu Dhabi</td></tr>
+                                    <tr><td>6</td><td>MizhiLab</td><td>National University of Defnese Technology</td><td>China</td></tr>
+                                    <tr><td>7</td><td>GRADIANT</td><td>Gradiant</td><td>Spain</td></tr>
+                                    <tr><td>8</td><td>RoMa</td><td>Fraunhofer SIT | ATHENE Center</td><td>Germany</td></tr>
+                                    <tr><td>9</td><td>VYAKRITI 2.0</td><td>Apex Institute of technology Chandigarh University</td><td>India</td></tr>
+                                    <tr><td>10</td><td>Safe AI</td><td>UNIST (Ulsan National Institute of Science and Technology)</td><td>South Korea</td></tr>
+                                    <tr><td>11</td><td>MILab</td><td>University of Science and Technology of China</td><td>China</td></tr>
+                                    <tr><td>12</td><td>FalseNegative</td><td>The Hong Kong Polytechnic University</td><td>China</td></tr>
+                                    <tr><td>13</td><td>DeFakePol</td><td>Samsung Research Poland</td><td>Poland</td></tr>
+                                    <tr><td>14</td><td>MR-CAS</td><td>University of Chinese Academy of Sciences</td><td>China</td></tr>
+                                    <tr><td>15</td><td>Robust</td><td>IIT Jammu</td><td>India</td></tr>
+                                    <tr><td>16</td><td>The Adversaries</td><td>Singapore Institute of Technology</td><td>Singapore</td></tr>
+                                    <tr><td>17</td><td>SecureML</td><td>University of Cagliari</td><td>Italy</td></tr>
+                                    
+                                     
+                                    
+
+
+                                    
+
+                                    
+                                </tbody></table>
+                                 </div>
+                                 <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded shadow mb-3" style="margin-top: 40px;background-color: #5cf882 !important;">
+                                    <div class="container">
+                                       <h5 style="color:white;margin-bottom: 0px">Test set and classificator release	 [April 10]</h5>
+        
+                                    </div>
+                                 </nav>
+                                 <div style="font-size: 16px;"><u>Test Set Description</u>:<br><br>
+                                    <b>High Quality (HQ) generators</b>: Adobe Firefly, DeepAI, Flux 1.1 Pro, HotPotAI, NvidiaSanaPAG, StableDiffusion 3.5, StyleGAN 2, StyleGAN 3, Tencent Hunyuan  <br>
+                                    <b>Low Quality (LQ) generators</b>: DeepAI, Flux.1, Freepik, HotPotAI, NvidiaSanaPAG, Stable Diffusion Attend and Excite, StyleGAN, StyleGAN 3, Tencent Hunyuan<br><br>
+                                    <b>Although the challenge involves a total of four classifiers, only two of them (ResNet and DenseNet) are released with the dataset. The remaining two are used as blind models by the organizers and are not made available to participants. So, these blind classifiers are used only in the evaluation&nbsp;phase.</b>
+                                    <br><br><u>Notes</u>:<br>
+                                    LQ images are created by resizing the images followed by variable Quality Factor (QF) compression. This combination is designed to simulate social media compression. Note that the number of images generated by GAN and Diffusion Models is numerically&nbsp;balanced.</div>
+                                
+                                    <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded shadow mb-3" style="margin-top: 40px;background-color: #5cf882 !important;">
+                                        <div class="container">
+                                           <h5 style="color:white;margin-bottom: 0px">Submission results [June 15]</h5>
+                                           
+
+                                        </div>
+                                     </nav>
+                                     <div>
+                                        By this date, all participants are required to submit the following:<br>
+
+                                        <br> - Attacked Test Set: A version of the provided test set that reflects the participant’s attack strategy, following the challenge guidelines.
+
+                                        <br> - Abstract Paper: A short abstract paper (1–2 pages) that briefly describes the methodology, motivation, and key contributions of the proposed approach.
+
+                                        <br>Submissions must be made sent an email to the challenge referrent Mirko Casu (challenge.dff@gmail.com).
+
+                                     </div>
+
+                                     <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded shadow mb-3" style="margin-top: 40px;background-color: #5cf882 !important;">
+                                        <div class="container">
+                                           <h5 style="color:white;margin-bottom: 0px">Leaderboard Publication [June 22]</h5>
+                                           
+
+                                        </div>
+                                     </nav>
+                                     <div>
+                                        By this date, the official challenge leaderboard will be released based on the evaluation of the submitted attacked test sets.
+                                        The top 3 teams will be notified via email.
+                                        <br><br><b><u>Please note: All accepted papers will be considered for publication in the ACM Multimedia 2025 proceedings. For more information, please visit the official&nbsp;website.</u>&nbsp;</b>
+<table class="table" style="text-align: center;">
+                                        <tbody><tr>
+                                            <th></th>
+                                            <th>Team Name</th>
+                                            <th>Organization/Institution</th>
+                                            <th>FINAL SCORE</th>
+                                        </tr>
+                                        <tr style="background-color:beige">
+                                            <td>1</td>
+                                            <td>MR-CAS</td>
+                                            <td>University of Chinese Academy of Sciences</td>
+                                            <td>2740</td>
+                                        </tr>
+                                        <tr style="background-color:beige">
+                                            <td>2</td>
+                                            <td>Safe AI</td>
+                                            <td>UNIST (Ulsan National Institute of Science and Technology)</td>
+                                            <td>2709</td>
+                                        </tr>
+                                        <tr style="background-color:beige">
+                                            <td>3</td>
+                                            <td>RoMa</td>
+                                            <td>Fraunhofer SIT | ATHENE Center	</td>
+                                            <td>2679</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>GRADIANT</td>
+                                            <td>Gradiant</td>
+                                            <td>2631</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>DASH</td>
+                                            <td>Sungkyunkwan University</td>
+                                            <td>2618</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td>SecureML</td>
+                                            <td>University of Cagliari</td>
+                                            <td>2490</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td>MICV</td>
+                                            <td>Ant Group</td>
+                                            <td>2434</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8</td>
+                                            <td>WHU_PB</td>
+                                            <td>Wuhan University</td>
+                                            <td>2354</td>
+                                        </tr>
+                                        <tr>
+                                            <td>9</td>
+                                            <td>The Adversaries</td>
+                                            <td>Singapore Institute of Technology</td>
+                                            <td>2341</td>
+                                        </tr>
+                                        <tr>
+                                            <td>10</td>
+                                            <td>DeFakePol</td>
+                                            <td>Samsung Research Poland</td>
+                                            <td>1665</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11</td>
+                                            <td>False Negative</td>
+                                            <td>The Hong Kong Polytechnic University</td>
+                                            <td>1602</td>
+                                        </tr>
+                                        <tr>
+                                            <td>12</td>
+                                            <td>VYAKRITI 2.0</td>
+                                            <td>Apex Institute of technology Chandigarh University	</td>
+                                            <td>1041</td>
+                                        </tr>
+                                        <tr>
+                                            <td>13</td>
+                                            <td>MILab</td>
+                                            <td>University of Science and Technology of China</td>
+                                            <td>110</td>
+                                        </tr>
+                                                                        
+
+
+                                        
+                                    </tbody></table>
+                                     </div>
+                                     <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded shadow mb-3" style="margin-top: 40px;">
+                                        <div class="container">
+                                           <h5 style="color:white;margin-bottom: 0px">Final Paper Submission (Top 3 Teams Only) [June 30]</h5>
+                                           
+
+                                        </div>
+                                     </nav>
+                                     <div>
+                                        The top 3 teams will be invited to submit a full-length paper describing their method in detail. This paper will undergo a review process managed by the challenge organizers.
+
+                                     </div>
+                                      
+                                     
+                                 
+                                 <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded shadow mb-3" style="margin-top: 40px;">
+                                    <div class="container">
+                                       <h5 style="color:white;margin-bottom: 0px">Announcement regarding full paper submission	 [July 24]</h5>
+                                       
+                                    </div>
+                                 </nav>
+                                 <div>
+                                    The organizers will notify the top 3 teams about the outcome of the review process.
+Based on the reviews, zero, one, more, or all of the submitted papers may be accepted for inclusion in the ACM Multimedia 2025 proceedings.
+                                 </div>
+                                 <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded shadow mb-3" style="margin-top: 40px;">
+                                        <div class="container">
+                                           <h5 style="color:white;margin-bottom: 0px">Camera ready - Grand Challenge Solutions (Top 3 Teams Only) [August 01]</h5>
+                                           
+
+                                        </div>
+                                     </nav>
+                                     <div>
+                                       
+                                     </div>
+                                  
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div id="info" class="container-fluid about-section">
+        <div class="row about-section">
+          
+            
+            <div class="col-lg-12 " style="margin-top: 60px;">
+                
+                <div class="card" style="border: none">
+           
+                            <h3 class="font-weight-light">Evaluation criteria</h3>
+                            <span class="line mb-2"></span>
+                            <div style="text-align:justify">
+                                <ul>
+                                    <li><b>SSIM Requirement &amp; Submission</b><br> Each submission must include original deepfake images and their perturbed versions. Only complete image pairs will be evaluated.</li> 
+                                    <li><b>Accuracy Calculation</b><br>An attacked image is a positive case if a detection system misclassifies it as "real." Accuracy is the proportion of these cases within the dataset.</li>
+                                    <li><b>Final Score Composition</b><br>The score is a weighted average of SSIM and detection accuracy (across four classifiers). Higher SSIM indicates greater similarity. Weight distribution will be disclosed upon acceptance.
+                                    The final score is calculates as follow:
+                                    <br>
+                                    <img width="800px" src="./AADD-2025 Challenge_files/formula.png">
+                                    <br>
+                                    where:
+                                    <ul>
+                                        <li>C is the set of all classifiers</li>
+                                        <li>N is the number of deepfake images in the test dataset</li>
+                                        <li>I<sub>k</sub> is the k-th image from the deepfake test dataset</li>
+                                        <li>I<sub>k</sub><sup>ADV</sup> is the adversarial image generated from I<sub>k</sub>                                        </li>
+                                        <li>LABEL<sub>real</sub>  is the label of class real</li>
+                                        <li>[] is the indicator function which equals to 1 when predicate is true, otherwise&nbsp;equals&nbsp;to&nbsp;0</li>
+                                    </ul>
+                                </li>
+                                    
+
+                                    
+                                </ul>
+                                
+                               
+                              </div>
+                        </div>
+               
+         
+</div>
+
+
+</div>
+            
+    </div>
+
+    <section class="section bg-custom-gray" id="organizers">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">Chairs</span></h1>
+            <div class="portfolio">
+                <div class="portfolio-container" style="position: relative; height: 370.688px;"> 
+                    
+                    <div class="col-md-6 col-lg-4 dmi new" style="position: absolute; left: 0px; top: 0px;">
+                        <div class="portfolio-item">
+                            <img src="./AADD-2025 Challenge_files/lg.jpg" class="img-fluid">
+                            <div class="content-holder">
+                                <a class="img-popup" href="./AADD-2025 Challenge_files/lg.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Luca Guarnera</h6>
+                                    <p class="subtitle">Research Fellow</p>
+                                    <p class="subtitle">Department of Mathematics and Computer
+                                        Science, University of Catania</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 dmi new" style="position: absolute; left: 369.992px; top: 0px;">
+                        <div class="portfolio-item">
+                            <img src="./AADD-2025 Challenge_files/francesco_guarnera.jpg" class="img-fluid">
+                            <div class="content-holder">
+                                <a class="img-popup" href="./AADD-2025 Challenge_files/francesco_guarnera.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Francesco Guarnera</h6>
+                                    <p class="subtitle">Research Fellow</p>
+                                    <p class="subtitle">Department of Mathematics and Computer
+                                        Science, University of Catania</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    
+                   
+                </div> 
+            </div>  
+        </div>            
+    </section>
+
+    <section class="section bg-custom-gray" id="organizers">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">Co-Chairs</span></h1>
+            <div class="portfolio">
+                <div class="portfolio-container" style="position: relative; height: 369.578px;"> 
+                    
+                   
+                    <div class="col-md-6 col-lg-4 dmi new" style="position: absolute; left: 0px; top: 0px;">
+                        <div class="portfolio-item text-center">
+                            <img src="./AADD-2025 Challenge_files/battiato.jpg" class="img-fluid">
+                            <div class="content-holder">
+                                <a class="img-popup" href="./AADD-2025 Challenge_files/battiato.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Sebastiano Battiato</h6>
+                                    <p class="subtitle">Full Professor</p>
+                                    <p class="subtitle">Department of Mathematics and Computer
+                                        Science, University of Catania</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    
+                       
+                     
+                      
+                        <div class="col-md-6 col-lg-4 dmi new" style="position: absolute; left: 369.992px; top: 0px;">
+                            <div class="portfolio-item">
+                                <img src="./AADD-2025 Challenge_files/puglisi.jpg" class="img-fluid">
+                                <div class="content-holder">
+                                    <a class="img-popup" href="./AADD-2025 Challenge_files/puglisi.jpg"></a>
+                                    <div class="text-holder">
+                                        <h6 class="title">Giovanni Puglisi</h6>
+                                        <p class="subtitle">Associate Professor</p>
+                                        <p class="subtitle">Department of Mathematics and Computer Science, University of Cagliari, Italy</p>
+                                    </div>
+                                </div>   
+                            </div>             
+                        </div>
+                        <div class="col-md-6 col-lg-4 dmi new" style="position: absolute; left: 739.984px; top: 0px;">
+                            <div class="portfolio-item">
+                                <img src="./AADD-2025 Challenge_files/Zahid.JPG" class="img-fluid">
+                                <div class="content-holder">
+                                    <a class="img-popup" href="./AADD-2025 Challenge_files/Zahid.JPG"></a>
+                                    <div class="text-holder">
+                                        <h6 class="title">Zahid Akhtar</h6>
+                                        <p class="subtitle">Associate Professor</p>
+                                        <p class="subtitle">State University of New York Polytechnic Institute, USA</p>
+                                    </div>
+                                </div>   
+                            </div>             
+                        </div>
+                       
+
+                       
+                    
+                   
+                </div> 
+            </div>  
+        </div>            
+    </section>
+
+    <section class="section bg-custom-gray" id="organizers">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">Dataset  Committee</span></h1>
+            <div class="portfolio">
+                <div class="portfolio-container" style="position: relative; height: 369.992px;"> 
+                    
+                   
+                    
+                       
+                     
+                        <div class="col-md-6 col-lg-4 dmi new" style="position: absolute; left: 0px; top: 0px;">
+                            <div class="portfolio-item">
+                                <img src="./AADD-2025 Challenge_files/casu.jpg" class="img-fluid">
+                                <div class="content-holder">
+                                    <a class="img-popup" href="./AADD-2025 Challenge_files/casu.jpg"></a>
+                                    <div class="text-holder">
+                                        <h6 class="title">Mirko Casu</h6>
+                                        <p class="subtitle">PhD</p>
+                                        <p class="subtitle">Department of Mathematics and Computer
+                                            Science, University of Catania</p>
+                                    </div>
+                                </div>   
+                            </div>             
+                        </div>
+                       
+                        <div class="col-md-6 col-lg-4 dmi new" style="position: absolute; left: 369.992px; top: 0px;">
+                            <div class="portfolio-item">
+                                <img src="./AADD-2025 Challenge_files/pontorno.jpg" class="img-fluid">
+                                <div class="content-holder">
+                                    <a class="img-popup" href="./AADD-2025 Challenge_files/pontorno.jpg"></a>
+                                    <div class="text-holder">
+                                        <h6 class="title">Orazio Pontorno</h6>
+                                        <p class="subtitle">PhD</p>
+                                        <p class="subtitle">Department of Mathematics and Computer
+                                            Science, University of Catania</p>
+                                    </div>
+                                </div>   
+                            </div>             
+                        </div>
+                        <div class="col-md-6 col-lg-4 dmi new" style="position: absolute; left: 739.984px; top: 0px;">
+                            <div class="portfolio-item">
+                                <img src="./AADD-2025 Challenge_files/ragaglia_c.JPG" class="img-fluid">
+                                <div class="content-holder">
+                                    <a class="img-popup" href="./AADD-2025 Challenge_files/ragaglia_c.JPG"></a>
+                                    <div class="text-holder">
+                                        <h6 class="title">Claudio Vittorio Ragaglia</h6>
+                                        <p class="subtitle">PhD</p>
+                                        <p class="subtitle">Department of Mathematics and Computer
+                                            Science, University of Catania</p>
+                                    </div>
+                                </div>   
+                            </div>             
+                        </div>
+
+                       
+                    
+                   
+                </div> 
+            </div>  
+        </div>            
+    </section>
+
+    <section class="section bg-custom-gray" id="">
+        <div class="container">
+           
+            <div class="portfolio">
+                <div class="portfolio-container" style="position: relative; height: 278.305px;"> 
+                    
+                   
+                    
+                       
+                     
+                        
+                       
+                        <div class="col-md-3 col-lg-3 dmi new" style="position: absolute; left: 0px; top: 0px;">
+                            <div class="portfolio-item">
+                                <img src="./AADD-2025 Challenge_files/unict-logo.png" class="img-fluid">
+                                <div class="content-holder">
+                                    <a class="img-popup" href="./AADD-2025 Challenge_files/casu.jpg"></a>
+                                    <div class="text-holder">
+                                        <h6 class="title">Università degli Studi di Catania</h6>
+                                    </div>
+                                </div>   
+                            </div>             
+                        </div>
+                        <div class="col-md-3 col-lg-3 dmi new" style="position: absolute; left: 277.5px; top: 0px;">
+                            <div class="portfolio-item">
+                                <img src="./AADD-2025 Challenge_files/unicagliari.png" class="img-fluid">
+                                <div class="content-holder">
+                                    <a class="img-popup" href="./AADD-2025 Challenge_files/casu.jpg"></a>
+                                    <div class="text-holder">
+                                        <h6 class="title">Università degli Studi di Cagliari</h6>
+                                    </div>
+                                </div>   
+                            </div>             
+                        </div>
+                        <div class="col-md-3 col-lg-3 dmi new" style="position: absolute; left: 555px; top: 0px;">
+                            <div class="portfolio-item">
+                                <img src="./AADD-2025 Challenge_files/SUNY.png" class="img-fluid">
+                                <div class="content-holder">
+                                    <a class="img-popup" href="./AADD-2025 Challenge_files/casu.jpg"></a>
+                                    <div class="text-holder">
+                                        <h6 class="title">State University of New York Polytechnic Institute</h6>
+                                    </div>
+                                </div>   
+                            </div>             
+                        </div>
+                        <div class="col-md-3 col-lg-3 dmi new" style="position: absolute; left: 832.5px; top: 0px;">
+                            <div class="portfolio-item">
+                                <img src="./AADD-2025 Challenge_files/Logo_Serics.png" class="img-fluid">
+                                <div class="content-holder">
+                                    <a class="img-popup" href="./AADD-2025 Challenge_files/casu.jpg"></a>
+                                    <div class="text-holder">
+                                        <h6 class="title">Serics Project - FF4ALL</h6>
+                                    </div>
+                                </div>   
+                            </div>             
+                        </div>
+
+                       
+                    
+                   
+                </div> 
+            </div>  
+        </div>            
+    </section>
+    
+    <!--<div id="desc" class="container-fluid about-section">
+        <div  class="row about-section">
+          
+            <div class="col-lg-12 mt-5">
+                <div class="container about-section">
+                    <h2 class="mb-5"><span class="text-danger">Challenge description</span></h2>
+                    <div class="row">
+        
+                        <div class="col-md-12 col-lg-12">
+                            <div class="card" style="border: none">
+                       
+                                <div class="card-body">
+                                    
+                                   
+                                  <div style="text-align:justify">
+                                    Multiple Sclerosis (MS) is a neurological disease that affects millions of people worldwide. In MS, different
+area of the brain become inflamed, damaging the myelin, the fatty tissue that surrounds and insulate nerve
+fibers.
+Magnetic Resonance Imaging (MRI) is a fundamental tool to reach the diagnosis of MS and to monitor its
+progression and response to treatments. Accurate segmentation of MS lesions is essential for volumetric
+quantification of MS lesion load. However, manual selection of MS lesions on MRI scans is a very strenuous
+and time-consuming task and sufficiently large data sets with accurate manual segmentation by experts are
+still lacking.
+Consequently, the development of methods capable of automatically segmenting MS lesions is an unmet
+need and would represent a key step in advancing clinical management and optimizing treatment for people
+with MS.
+In conjunction with the ICPR 2024 conference, we propose a new lesion segmentation competition focused
+on improving the accuracy of MS lesion segmentation in MRI.
+We plan to provide participants with an extensively annotated dataset derived from a heterogeneous cohort
+of MS patients, which contains both baseline and follow-up MRI scan of each patient, acquired at different
+hospital.
+<strong>MSLesSeg</strong> focuses on developing algorithms that can independently segment MS lesions of an
+unexamined cohort of patients. This segmentation approach aims to overcome current benchmarks by
+eliminating user interaction and ensuring robust lesion detection at different timepoints, encouraging
+innovation and promoting methodological advances.
+                                    
+                                      
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        
+                        
+                </div>
+            </section>
+            </div>
+            
+    </div>-->
+<!--
+    <div id="important" class="container-fluid">
+        <div  class="row about-section">
+          
+            <div class="col-lg-12 mt-5">
+                <div class="container about-section">
+                    <h2 ><span class="text-danger">Important dates</span></h2>
+                    <div class="row">
+        
+                        <div class="col-md-12 col-lg-12">
+                            <div class="card" style="border: none">
+                       
+                                <div class="card-body">
+                                    
+                                   <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded shadow mb-3" style="background-color: #5cf882 !important; ">
+                                     <div class="container">
+                                        <h5 style="color:white;margin-bottom: 0px">Registration <s>[April 26 - May 15 May 22 (extended deadline)]</s></h3>
+                                        
+                                     </div>
+                                  </nav>
+                                  <div>
+                                      <h5>To register, send an e-mail to the main contact (alessia.rondinella@phd.unict.it) indicating the following fields:</h5>
+                                        <ul>
+                                            <li>Name of Team</li>
+                                            <li>List of teammates (Name, Surname, Nationality, Organization)</li>
+                                            <li>Team email</li>
+                                            <li>Team referent (a teammate)</li>
+                                            <li>Organization/Institution</li>
+                                        </ul> 
+                                        
+                                        <h4 style="padding-bottom: 20px;">List of registered teams</h4>
+                                        <table class="table">
+                                            <tr><th></th><th>Team Name</th><th>Organization/Institution</th></tr>
+                                            <tr><td>1</td><td>MSUniCaTeam</td><td>Dept of Mathematics and Computer Science, University of Cagliari</td></tr>
+                                            <tr><td>2</td><td>SJTU_SEIEE_2-426Lab</td><td>Department of Automation, Shanghai Jiao Tong University, Shanghai, China</td></tr>
+                                            <tr><td>3</td><td>LST</td><td>Laboratory of Imaging Technologies, Faculty of Electrical Engineering, University of Ljubljana</td></tr>
+                                            <tr><td>4</td><td>AthenaRC-DUTH</td><td> Athena RC in conjuction with the Democritus University of Thrace</td></tr>
+                                            <tr><td>5</td><td>UBHM</td><td>University of Bucharest, Helmholtz Munich</td></tr>
+                                            <tr><td>6</td><td>UGIVIA-UIB Team</td><td>University of the Balearic Islands</td></tr>
+                                            <tr><td>7</td><td>MadSeg</td><td>University of Wisconsin-Madison</td></tr>
+                                            <tr><td>8</td><td>BrainS</td><td>University of Brescia</td></tr>
+                                            <tr><td>9</td><td>NDSU REU ML </td><td>North Dakota State University, USA</td></tr>
+                                            <tr><td>10</td><td>Vishleshak</td><td>Working Professional</td></tr>
+                                            <tr><td>11</td><td>BeckLab</td><td>Icahn School of Medicine at Mount Sinai, New York, NY, US.</td></tr>
+                                            <tr><td>12</td><td>RVLab</td><td>Chungbuk National University/RVLab</td></tr>
+                                            <tr><td>13</td><td>M3S: MeetMIALMS</td><td>CIBM Center for Biomedical Imaging, Switzerland</td></tr>
+                                            <tr><td>14</td><td>Student</td><td>University of Cote d'Azur</td></tr>
+                                            <tr><td>15</td><td>ARTEAM</td><td>Altınay Robot Teknolojileri</td></tr>
+                                            <tr><td>16</td><td>PicusLabMed</td><td>University of Naples Federico II</td></tr>
+                                            <tr><td>17</td><td>ICAI</td><td>University of Malaga</td></tr>
+                                            <tr><td>18</td><td>MMS</td><td>TU Munich</td></tr>
+                                            <tr><td>19</td><td>BronTeam</td><td> John von Neumann Faculty of Informatics, Obuda University, Hungary</td></tr>
+                                            <tr><td>20</td><td>AIMH4Healtcare</td><td>ISTI-CNR, Pisa, Italy</td></tr>
+                                            <tr><td>21</td><td>INTELLIGO Labs</td><td>University of Verona</td></tr>
+                                            <tr><td>22</td><td>LA2I2F</td><td>University of Udine</td></tr>
+                                            <tr><td>23</td><td>Data Explorers</td><td>Data Scientist Professional working in the Data Field</td></tr>
+                                            <tr><td>24</td><td>Tequila</td><td>George Emil Palade University, Tirgu Mures, Romania</td></tr>
+                                            <tr><td>25</td><td>Golestan</td><td>Golestan university</td></tr>
+                                            <tr><td>26</td><td>UMD-PRG</td><td>UMD College Park</td></tr>
+                                            <tr><td>27</td><td>Genshin Impact Starts</td><td>Harbin Institute of Technology at Shenzhen </td></tr>
+                                            <tr><td>28</td><td>AdasLab - Applied Data Science Lab</td><td>UOC - Universitat Oberta de Catalunya</td></tr>
+                                             
+                                            
+
+
+                                            
+
+                                            
+                                        </table>
+                                  </div>
+                                  
+                                 <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded shadow mb-3" style="margin-top: 40px;background-color: #5cf882 !important;">
+                                    <div class="container">
+                                       <h5 style="color:white;margin-bottom: 0px">Training set release [<s>May 16</s>  May 24]</h3>
+                                       
+                                    </div>
+                                 </nav>
+                                 <div>
+                                     <h6>An email with  a proper link for training set download will be sent to each teams</h5>
+                                        <h6>Training-set structure </h6>
+                                        <ul>
+                                            <li>Px (patient)</li>
+                                            <ul>
+                                                <li>Tx (timpoint)</li>
+                                                <ul>
+                                                    <li>Px_Tx_T1.nii.gz (T1-weighted)</li>
+                                                    <li>Px_Tx_T2.nii.gz (T2-weighted)</li>
+                                                    <li>Px_Tx_FLAIR.nii.gz (FLAIR)</li>
+                                                    <li>Px_Tx_MASK.nii.gz (Ground-Truth segmentation mask)</li>
+                                                   
+                                                </ul>
+                                            </ul>
+                                        </ul>
+                                 </div>
+
+                                 <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded shadow mb-3" style="margin-top: 40px;background-color: #5cf882 !important;">
+                                    <div class="container">
+                                       <h5 style="color:white;margin-bottom: 0px">Test set release [<s>June 13</s> June 19]</h3>
+                                       
+                                    </div>
+                                 </nav>
+                                 <div>
+                                     <h6>A link will be sent to the team email with a proper link for test set download</h5>
+                                        <h6>Test-set structure </h6>
+                                        <ul>
+                                            <li>Px (patient)</li>
+                                                <ul>
+                                                    <li>Px_T1.nii.gz (T1-weighted)</li>
+                                                    <li>Px_T2.nii.gz (T2-weighted)</li>
+                                                    <li>Px_FLAIR.nii.gz (FLAIR)</li>                                                
+                                                </ul>
+                                            
+                                        </ul>
+                                        <h6><u>To ensure the Dice score is calculated correctly please use the following script <a href="assets/imgs/DICE_EVAL.zip">DICE_EVAL</a>. <br />
+                                            All the instructions on how to use it are described inside the README file.</u></h6>
+                                 </div>
+
+                                 <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded shadow mb-3" style="margin-top: 40px;background-color: #5cf882 !important;">
+                                    <div class="container">
+                                       <h5 style="color:white;margin-bottom: 0px">Deadline submission result [<s>June 30</s> July 3]</h3>
+                                       
+                                    </div>
+                                 </nav>
+                                 <div>
+                                     <h6>Upon completion of the challenge, participants are required to submit their results via email (from the registered email address) to the main contact (alessia.rondinella@phd.unict.it). The submission email should include a link to a repository with the following modality:
+                                        <ul>
+                                            <li>Subject: MSLesSeg Challenge Results TEAMNAME </li>
+                                            <li>The repository must contain a zip file to download named TEAMNAME.zip</li>
+                                            <li>The zip file must be organized as follow:</li>    
+                                            <ul>
+                                                <li>Directory DESC containing a PDF file with a brief summary of the segmentation approach used (1-2 pages) </li>
+                                                <li>Directory MASKS containing a list of files named Px_PRED.nii.gz. </li>
+                                                <li>3D masks must have the same spatial resolutions (182,218,182) and orientations (X,Y,Z) of the Ground-Truth segmentation mask released during training phase</li>
+                                            </ul>                                            
+                                        </ul>
+                                        
+                                     </h5>
+                                    <h6>Only the last submission for team will be considered. Team with more than 3 submission will not be coonsidered</h5>   
+
+                                 </div>
+                                 <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded shadow mb-3" style="margin-top: 40px;background-color: #5cf882 !important;">
+                                    <div class="container">
+                                       <h5 style="color:white;margin-bottom: 0px">Announcement of the results [July 10]</h5>
+                                        
+                                       
+                                    </div>
+                                 </nav>
+                                 <div>
+                                    <table class="table" style="text-align: center;">
+                                        <tr>
+                                            <th></th>
+                                            <th>Team Name</th>
+                                            <th>Organization/Institution</th>
+                                            <th>DICE SCORE</th>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>MadSeg</td>
+                                            <td>University of Wisconsin-Madison</td>
+                                            <td>0.7146</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>BrainS</td>
+                                            <td>University of Brescia</td>
+                                            <td>0.7083</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>M3S: MeetMIALMS</td>
+                                            <td>CIBM Center for Biomedical Imaging, Switzerland</td>
+                                            <td>0.7079</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>AdasLab</td>
+                                            <td>UOC - Universitat Oberta de Catalunya</td>
+                                            <td>0.6974</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>MMS</td>
+                                            <td>TU Munich</td>
+                                            <td>0.6859</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td>LST</td>
+                                            <td>Faculty of Electrical Engineering, University of Ljubljana</td>
+                                            <td>0.6783</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td>BeckLab</td>
+                                            <td>Icahn School of Medicine at Mount Sinai, New York, NY, US</td>
+                                            <td>0.6754</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8</td>
+                                            <td>MSUniCaTeam</td>
+                                            <td>Dept of Mathematics and Computer Science, University of Cagliari</td>
+                                            <td>0.6508</td>
+                                        </tr>
+                                        <tr>
+                                            <td>9</td>
+                                            <td>Golestan</td>
+                                            <td>Golestan university</td>
+                                            <td>0.6503</td>
+                                        </tr>
+                                        <tr>
+                                            <td>10</td>
+                                            <td>LA2I2F</td>
+                                            <td>University of Udine</td>
+                                            <td>0.6446</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11</td>
+                                            <td>UBHM</td>
+                                            <td>University of Bucharest, Helmholtz Munich</td>
+                                            <td>0.6357</td>
+                                        </tr>
+                                        <tr>
+                                            <td>12</td>
+                                            <td>UGIVIA-UIB Team</td>
+                                            <td>University of the Balearic Islands</td>
+                                            <td>0.6101</td>
+                                        </tr>
+                                        <tr>
+                                            <td>13</td>
+                                            <td>BronTeam</td>
+                                            <td>John von Neumann Faculty of Informatics, Hungary</td>
+                                            <td>0.5683</td>
+                                        </tr>
+                                        <tr>
+                                            <td>14</td>
+                                            <td>INTELLIGO Labs</td>
+                                            <td>University of Verona</td>
+                                            <td>0.5471</td>
+                                        </tr>
+                                        <tr>
+                                            <td>15</td>
+                                            <td>Student</td>
+                                            <td>University of Cote d'Azur</td>
+                                            <td>0.4985</td>
+                                        </tr>
+                                        <tr>
+                                            <td>16</td>
+                                            <td>ICAI</td>
+                                            <td>University of Malaga</td>
+                                            <td>0.2351</td>
+                                        </tr>
+                                       
+
+                                        
+                                        
+
+                                        
+
+                                        
+                                    </table>
+                                 </div>
+                                 <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded shadow mb-3" style="margin-top: 40px;">
+                                    <div class="container">
+                                       <h5 style="color:white;margin-bottom: 0px">ICPR Competition [December 1-5]</h3>
+                                       
+                                    </div>
+                                 </nav>
+                                 <div>
+                                     <h6>Competition at ICPR 2024</h5>
+                                 </div>
+
+                                  
+
+
+                                </div>
+                            </div>
+                        </div>
+        
+                        
+                        
+                </div>
+            </section>
+            </div>
+            
+            
+    
+        </div>
+    <div id="info" class="container-fluid">
+        <div  class="row about-section">
+          
+            <div class="col-lg-12 mt-5">
+                <div class="container about-section">
+                    <h2 ><span class="text-danger">General info</span></h2>
+                    <div class="row">
+        
+                        <div class="col-md-12 col-lg-12">
+                            <div class="card" style="border: none">
+                       
+                                <div class="card-body" style="text-align: justify;">
+                                    
+                                   
+                                    Our initiative aims to fill existing gaps in fully automated MS lesion segmentation by providing participants
+                                    with an extensively annotated MRI dataset derived from a heterogeneous cohort of MS patients.
+                                    Our dataset contains series of data of about 90 patients acquired at multiple timepoints. These timepoint
+                                    vary from 1 to 5 per patient. Thus, we have approximately 150 MRI data series (timepoints) in total. Each
+                                    timepoint consists of three different scan modalities: T1-w, T2-w and FLAIR.
+                                    This dataset was meticulously preprocessed and annotated on FLAIR sequences by our experts,
+                                    encompassing T1-w and T2-w sequences for comprehensive lesion characterization.
+                                    A notable strength of our initiative lies in the substantial number of patients and annotated scans, surpassing
+                                    publicly available datasets traditionally used for MS lesion segmentation. Furthermore, our dataset is
+                                    distinctively advantageous as it is representative of real-world scenarios, featuring authentic MS patients,
+                                    and is acquired "in everyday practice", reflecting a heterogeneous acquisition environment without
+                                    constraints.
+                                    The goal is to build an algorithm capable of generating an automatic segmentation of MS lesions for an input
+                                    MRI data series (T1-w, T2-w and FLAIR) not seen by the model under training.
+                                    It is planned to provide a competition website/platform that will be used for the duration of the competition,
+                                    which will remain active thereafter. The platform will contain a private area for participants; in this area
+                                    participants can download the training/validation/test set, upload 1-2 page summary describing the
+                                    methodology and results (segmentation masks obtained on the test set).
+                                    In this competition, only fully automatic methods allowed. All methods may provide an automatic
+                                    segmentation of the MS lesions.
+                                    The data used in the training phase is limited to that provided by the challenge in order to compare methods
+                                    in the same environment, so no additional data are allowed.
+                                    Since this is the first challenge, it is not possible to estimate the exact number of participants. Given the
+                                    recent interest in the context of multiple sclerosis lesion segmentation, we are confident that a significant
+                                    number of groups will participate in the challenge (about 10).
+                                    Furthermore, we plan to launch the first edition of the MSLesSeg competition at ICPR 2024, with subsequent
+                                    editions planned as an annual tradition.
+                                    We plan to ask each participant to produce a 1-2 page summary detailing their technical solutions to the
+                                    challenge. Participants who do not comply with this request by the deadline will be excluded from the final
+                                    rankings and awards.
+                                    Teams with the highest scores in the challenge ranking will be reviewed by the organizing committee and will
+                                    receive an electronic certificate of successful participation. The methods presented by these teams will also
+                                    be described in the challenge report paper.
+                                    The organizers of the challenge will provide the results of a baseline methods.
+                                    The organizing committee will publish a paper describing the competition process and results (including
+                                    rankings) of the challenge. The authors of the best selected works will be invited to submit their contribution
+                                    to a special issue of a valuable Journal.
+                                    Each participant may upload (during the upload time) a maximum of 3 result files; the best one will be
+                                    considered for the participant's ranking. Each participant must upload also a 1-2 page summary describing
+                                    the methodology before the deadline. After the deadline, the score will be calculated only for participant
+                                    which upload the 1-2 page summary and at least one result file. All results will be shown publicly on the
+                                    competition website, which will be updated during the open training round and announced on the final round
+                                    phases of the closed test round of the task.
+                                 
+                            </div>
+                        </div>
+        
+                        
+                        
+                        </div>
+                    </div>
+</div></div>
+
+<div class="col-lg-12 mt-5">
+    <div class="container about-section">
+        <h2 ><span class="text-danger">Dataset</span></h2>
+        <div class="row">
+
+            <div class="col-md-12 col-lg-12">
+                <div class="card" style="border: none">
+           
+                    <div class="card-body" style="text-align: justify;">
+                        
+                       
+                        The dataset will be public. All the details about the dataset are available on the site used for the challenge.
+The dataset contains MRI scans of patients acquired at different timepoints and labelled scans and has
+received the approval of the ethics committee of the hospitals where the scans were acquired. The dataset
+and the annotations will be under CC BY 4.0 license.
+The competition cohort consists of patients diagnosed with multiple sclerosis who were clinically scanned
+with MRI brain acquisition protocols at different hospital centers in the city of Catania, Italy.
+All the data were acquired in the last 3 years, during brain MRI scans.
+The data were acquired in different hospital centers with different 1.5 Tesla MRI scanners (about 3), with
+different MRI protocols, then annotated by two expert raters and validated by an expert specialized in
+neurology and multiple sclerosis.
+The training, validation and test sets will be selected randomly from the dataset, to ensure that the
+distributions of multiple sclerosis patients conform to the distributions of a real-world scenario.
+All data provided during the challenge will be described on the challenge site.
+Each case consists of T1-w, T2-w and FLAIR-w scans (extracted from whole brain MRI) of a patient, acquired
+at several time-point, and annotations of the labelled MS lesions from the FLAIRs for each time-point.
+All the annotation were produced manually by two know-context operators and validated by a multiple
+sclerosis expert neurology. Both the annotators had professional experience on the task, while the
+neurologist which validated the segmentation masks had many years of experience in multiple sclerosis MRI
+evaluation.
+MS lesion annotations of the dataset were performed using Jim 9, a commercial semi-automated
+segmentation tool, the link to which can be found here: <a href="https://www.xinapse.com/j-im-9-software/">https://www.xinapse.com/j-im-9-software/</a>
+The process used to determine the annotations is as follows:
+1. Each MRI was reviewed by an experienced neurologist specialising in multiple sclerosis. The neurologist
+identified and located the MS lesions using his expertise in MRI interpretation.
+2. Two know-context operators segmented each identified lesion in the FLAIR scan, using T1- and T2-
+weighted scans for complete lesion characterisation. (MS lesions typically appear hyperintense in T2-
+weighted and FLAIR scans and hypointense in T1-weighted scans). The labels were generated using the tool
+mentioned above.
+3. The neurologist verified the accuracy of the segmentations by visual inspection of the produced labels
+together with the corresponding MRI scans, manually correcting any discrepancies if necessary.
+Steps 2 and 3 were iterated until the neurologist was satisfied with the quality of the generated labels.
+During the manual labelling process, we consider a possible source of segmentation error resulting mainly
+from the existence of small MS lesions in MRI scans. Patients with multiple sclerosis often have numerous
+small lesions, usually less than 3 mm, so that the precise identification of these small lesions becomes
+difficult. To reduce potential inaccuracies, a validation process was implemented during the final data
+verification phase, systematically on all segmentation masks. Lesions that could not be distinctly identified
+on two consecutive slices were subsequently excluded from the segmentation masks.
+Errors in the segmentation process can also depend on inter- and intra-operator variability. To address this
+issue, the masks labeled by annotators underwent validation by the expert neurologist specializing in multiple
+sclerosis.
+We did an initial pre-processing on the MRIs: the original DICOM file was anonymised and converted to Nifti.
+It was then registered with the standard MNI-152 template. Finally, skull-stripping was performed, in order
+to extract only the brain tissue.
+All the annotations were produced after the registration of MRI with MNI-152 template from the FLAIR
+sequences, where the lesions appear hyperintense relative to the white matter. T1- and T2-weighted scans
+were used to confirm the presence of the lesions.
+                     
+                </div>
+            </div>
+
+            
+            
+            </div>
+        </div>
+</div></div>
+                    
+<div class="col-lg-12 mt-5">
+    <div class="container about-section">
+        <h2 ><span class="text-danger">Evaluation</span></h2>
+        <div class="row">
+
+            <div class="col-md-12 col-lg-12">
+                <div class="card" style="border: none">
+           
+                    <div class="card-body" style="text-align: justify;">
+                        
+                       
+                        Participants will develop their methods using the training/validation dataset provided in the first phase. At
+the end of the first phase, they will evaluate the results of their method on the provided test set, which will
+be released in the second phase.
+Subsequently, participants will have to submit the results obtained on the test set (the predicted
+segmentation masks) and produce a 1-2 page summary describing their proposed method.
+The submission instruction will be available after the approval of the competition.
+Participants' methods will be evaluated based on their accuracy in segmenting MS lesions, measuring how
+well the predicted lesions from the proposed method overlap with the real lesions in the ground-truth mask,
+using a metric based on overlap. This overlap-based metric will be used to rank the proposed methods. The
+evaluation metric used will be the Mean Dice Score (DSC), which is a commonly used metric for evaluating
+the performance of binary segmentation. It is particularly useful in medical imaging for tasks such as lesion
+segmentation, where precise object delineation is critical.
+The Dice score value is between 0 and 1, where 0 means that there is no agreement between the predicted
+mask and the ground-truth mask, while a value of 1 means that the predicted mask and the ground-truth
+mask are completely overlapping.
+Specifically, we will calculate the Dice score for each segmentation mask generated by their proposed
+method (one mask for each data series in the test set) using the following formula:
+<br />
+<div class="text-center">
+<img src="assets/imgs/dice_score.png" class="img-fluid" alt="DICE SCORE">
+</div>
+<br />
+where ‘A’ denotes the predicted segmentation mask and ‘B’ the ground-truth mask. Here, the notation
+denote the cardinality of each set of voxel.
+The final performance ranking will be determined by the overall Mean Dice Score calculated across all data
+series in the test set.
+                     
+                </div>
+            </div>
+
+            
+            
+            </div>
+        </div>
+</div></div>
+    </div>
+
+
+    <section class="section bg-custom-gray" id="portfolio">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">Organizers</h1>
+            <div class="portfolio">
+                <div class="portfolio-container"> 
+                    <div class="col-md-6 col-lg-4 dmi new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/organizers/rondinella.jpg" class="img-fluid" >
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/organizers/rondinella.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Alessia Rondinella</h6>
+                                    <p class="subtitle">PhD</p>
+                                    <p class="subtitle">Department of Mathematics and Computer
+                        Science, University of Catania</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 dmi new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/organizers/francesco_guarnera.jpg" class="img-fluid" >
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/organizers/francesco_guarnera.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Francesco Guarnera</h6>
+                                    <p class="subtitle">Research Fellow</p>
+                                    <p class="subtitle">Department of Mathematics and Computer
+                                        Science, University of Catania</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 dmi new">
+                        <div class="portfolio-item text-center">
+                            <img src="assets/imgs/organizers/battiato.jpg" class="img-fluid" >
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/organizers/battiato.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Sebastiano Battiato</h6>
+                                    <p class="subtitle">Full Professor</p>
+                                    <p class="subtitle">Department of Mathematics and Computer
+                                        Science, University of Catania</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    
+                        <div class="col-md-6 col-lg-4 dmi new">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/organizers/elena.jpg" class="img-fluid" >
+                                <div class="content-holder">
+                                    <a class="img-popup" href="assets/imgs/organizers/user.jpg"></a>
+                                    <div class="text-holder">
+                                        <h6 class="title">Elena Crispino</h6>
+                                        <p class="subtitle">PhD</p>
+                                        <p class="subtitle">Department of Biomedical and Biotechnological Sciences, University of Catania</p>
+                                    </div>
+                                </div>   
+                            </div>             
+                        </div>
+                        
+                        <div class="col-md-6 col-lg-4 dmi new">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/organizers/russo.jpg" class="img-fluid" >
+                                <div class="content-holder">
+                                    <a class="img-popup" href="assets/imgs/organizers/russo.jpg"></a>
+                                    <div class="text-holder">
+                                        <h6 class="title">Giulia Russo</h6>
+                                        <p class="subtitle">Assistant Professor</p>
+                                        <p class="subtitle">Department of Drug and Health Sciences, University of Catani</p>
+                                    </div>
+                                </div>   
+                            </div>             
+                        </div>
+                        <div class="col-md-6 col-lg-4 dmi new">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/organizers/pappalardo.jpg" class="img-fluid" >
+                                <div class="content-holder">
+                                    <a class="img-popup" href="assets/imgs/organizers/pappalardo.jpg"></a>
+                                    <div class="text-holder">
+                                        <h6 class="title">Francesco Pappalardo</h6>
+                                        <p class="subtitle">Full Professor</p>
+                                        <p class="subtitle">Department of Drug and Health Sciences, University of Catani</p>
+                                    </div>
+                                </div>   
+                            </div>             
+                        </div>
+                        <div class="col-md-6 col-lg-4 dmi new">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/organizers/user.jpg" class="img-fluid" >
+                                <div class="content-holder">
+                                    <a class="img-popup" href="assets/imgs/organizers/user.jpg"></a>
+                                    <div class="text-holder">
+                                        <h6 class="title">Clara Di Lorenzo</h6>
+                                        <p class="subtitle"></p>
+                                        <p class="subtitle">UOC Radiologia, Azienda Ospedaliera Garibaldi, Catania, Italy</p>
+                                    </div>
+                                </div>   
+                            </div>             
+                        </div>
+                        <div class="col-md-6 col-lg-4 dmi new">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/organizers/user.jpg" class="img-fluid" >
+                                <div class="content-holder">
+                                    <a class="img-popup" href="assets/imgs/organizers/user.jpg"></a>
+                                    <div class="text-holder">
+                                        <h6 class="title">Davide Maimone</h6>
+                                        <p class="subtitle"></p>
+                                        <p class="subtitle">UOC Radiologia, Azienda Ospedaliera Garibaldi, Catania, Italy</p>
+                                    </div>
+                                </div>   
+                            </div>             
+                        </div>
+                    
+                   
+                </div> 
+            </div>  
+        </div>            
+    </section>
+
+
+ <section class="section bg-custom-gray" id="references">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">References</h1>
+                                            <div>
+                                     <h5>A. Rondinella, E. Crispino, F. Guarnera, O. Giudice, A. Ortis, G. Russo, C. Di Lorenzo, D. Maimone, F. Pappalardo, S. Battiato, “Boosting multiple sclerosis lesion segmentation through attention mechanism”. Computers in Biology and Medicine 161 (2023): 107021</h5>
+<hr />
+<h5>A. Rondinella, F. Guarnera, O. Giudice, A. Ortis, G. Russo, E. Crispino, F. Pappalardo, S. Battiato “Enhancing Multiple Sclerosis Lesion Segmentation in Multimodal MRI Scans with Diffusion Models”. 2023 IEEE International Conference on Bioinformatics and Biomedicine Workshops (CMISF). IEEE, 2023</h5>
+
+<hr />
+<h5>A. Rondinella, F. Guarnera, E. Crispino, G. Russo, C. DI Lorenzo, D. Maimone,  F. Pappalardo, S. Battiato “ICPR 2024 Competition on Multiple Sclerosis Lesion Segmentation—Methods and Results”. 2024 International Conference on Pattern Recognition (ICPR).</h5>
+
+                                 </div> 
+        </div>            
+    </section>
+
+
+-->
+
+
+    <!--<section class="section" id="desc">
+        <div class="container">
+            <h2 class="mb-5">Short <span class="text-danger">CV</span></h2>
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Challenge description</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            
+                            <P class="subtitle">MSLesSeg .....</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-12">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Main research TOPIC</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+				            <h6 class="text-dark">Digital Forensics: <small>4 journals - 5 conferences</small></h6>
+				            <div class="progress mt-2 mb-3">
+				               <div class="progress-bar bg-dark" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+				            </div>
+				            <h6 class="text-dark">Computer Vision: <small>1 journals - 1 conferences</small></h6>
+				            <div class="progress mt-2 mb-3">
+				               <div class="progress-bar bg-danger" role="progressbar" style="width: 15%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+				            </div>
+				            <h6 class="text-dark">Medical Imaging: <small>1 preprints</small></h6>
+				            <div class="progress mt-2 mb-3">
+				               <div class="progress-bar bg-success" role="progressbar" style="width: 7%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+				            </div>
+				            <h6 class="text-dark">Other: <small>1 preprints</small></h6>
+				            <div class="progress mt-2 mb-3">
+				               <div class="progress-bar bg-warning" role="progressbar" style="width: 7%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+				            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <!--<section class="section" id="publications">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">Publications</span></h2>
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="card">
+               				<div class="card-header">
+                            <div class="mt-2">
+                                <h4>Journals</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            
+                           <ul>
+                           	<li><a class="paper-link"  href="https://www.mdpi.com/2313-433X/8/10/263" target="_blank"><i class="ti-file "></i> PAPER</a> | Guarnera Luca, Giudice Oliver, Guarnera Francesco, Ortis Alessandro, Puglisi Giovanni,
+								Paratore Antonino, Bui Linh MQ, Fontani Marco, Coccomini Davide Alessandro, Caldelli
+								Roberto, Falchi Fabrizio, Gennaro Claudio, Messina Nicola, Amato Giuseppe, Perelli
+								Gianpaolo, Concas Sara, Cuccu Carlo, Orrù Giulia, Marcialis Gian Luca, Battiato Sebastiano
+								(2022). <b>The Face Deepfake Detection Challenge</b>. MDPI Journal of Imaging Vol. 8, Num. 10,
+								pp. 263 (Q2,2021)
+							</li>
+							<li><a class="paper-link"  href="https://www.sciencedirect.com/science/article/pii/S1047320322001559" target="_blank"><i class="ti-file "></i> PAPER</a> | Battiato Sebastiano, Giudice Oliver, Guarnera Francesco, Puglisi Giovanni (2022).
+								<b>CNN-based first quantization estimation of double compressed JPEG images</b>. Elsevier
+								Journal of visual Communication and Image Representation Vol. 89, pp.10365 (Q1,2021) 
+								
+							</li>
+							<li><a class="paper-link"  href="https://ieeexplore.ieee.org/abstract/document/9431227" target="_blank"><i class="ti-file "></i> PAPER</a> | Battiato Sebastiano, Giudice Oliver, Guarnera Francesco, Puglisi Giovanni (2021). <b>First
+								Quantization Estimation by a Robust Data Exploitation Strategy of DCT Coefficients</b>. IEEE
+								Access Vol. 9, pp. 73110 – 73120 (Q1)
+							</li>
+							<li><a class="paper-link"  href="https://jis-eurasipjournals.springeropen.com/articles/10.1186/s13635-021-00120-7" target="_blank"><i class="ti-file "></i> PAPER</a> | Battiato Sebastiano, Giudice Oliver, Guarnera Francesco, Puglisi Giovanni (2021).
+								<b>Estimating Previous Quantization Factors on Multiple JPEG Compressed Images</b>. Springer
+								Open EURASIP Journal on Information Security Vol. 2021, Num. 1, pp. 1-11 (Q2)
+							</li>
+							<li><a class="paper-link"  href="https://www.mdpi.com/2313-433X/7/8/126" target="_blank"><i class="ti-file "></i> PAPER</a> | Guarnera Francesco, Giudice Oliver, Allegra Dario, Stanco Filippo, Battiato Sebastiano,
+								Livatino Salvatore, Matranga Vito, Salici Angelo (2021). <b>A Robust Document Identification
+								Framework through f-BP fingerprint</b>. MDPI Journal of Imaging Vol. 7, Num. 8, pp. 126 (Q2)
+							</li>
+                           </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-12">
+                    <div class="card">
+               				<div class="card-header">
+                            <div class="mt-2">
+                                <h4>International Conferences</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            
+                           <ul>
+                           	<li><a class="paper-link"  href="https://ieeexplore.ieee.org/document/9190967" target="_blank"><i class="ti-file "></i> PAPER</a> | Giudice Oliver, Allegra Dario, Guarnera Francesco, Stanco Filippo, Battiato Sebastiano
+								(2020). <b>Animated GIF optimization by adaptive color local table management</b>. In
+								Proceedings of 2020 IEEE International Conference on Image Processing (ICIP)
+							</li>
+							<li><a class="paper-link"  href="https://ieeexplore.ieee.org/document/9412528" target="_blank"><i class="ti-file "></i> PAPER</a> | Battiato Sebastiano, Giudice Oliver, Guarnera Francesco, Puglisi Giovanni (2020).
+								<b>Computational Data Analysis for First Quantization Estimation on JPEG Double
+								Compressed Images</b>. In Proceedings of 2020 IEEE 25th International Conference on Pattern
+								Recognition (ICPR)
+							</li>
+							<li><a class="paper-link"  href="https://link.springer.com/chapter/10.1007/978-3-030-68780-9_45" target="_blank"><i class="ti-file "></i> PAPER</a> | Battiato Sebastiano, Giudice Oliver, Guarnera Francesco, Puglisi Giovanni (2020).
+								<b>In-Depth DCT Coefficient Distribution Analysis for First Quantization Estimation</b>. In
+								Proceedings of MMForWild2020 – Multimedia FORensics in the WILD 2020 – Workshop of
+								2020 IEEE 25th International Conference on Pattern Recognition (ICPR)
+							</li>
+							<li><a class="paper-link"  href="https://link.springer.com/chapter/10.1007/978-3-030-68793-9_34" target="_blank"><i class="ti-file "></i> PAPER</a> | Battiato Sebastiano, Guarnera Francesco, Ortis Alessandro, Trenta Francesca, Ascari
+								Lorenzo, Siniscalco Consolata, De Gregorio Tommaso, Suàrez Eloy (2020).<b>Pollen Grain
+								Classification Challenge 2020</b>. In Proceedings of Springer International Conference on
+								Pattern Recognition (ICPR)
+							</li>
+							<li><a class="paper-link"  href="https://link.springer.com/chapter/10.1007/978-3-030-30645-8_65" target="_blank"><i class="ti-file "></i> PAPER</a> | Giudice Oliver, Guarnera Francesco, Paratore Antonino, Battiato Sebastiano (2019).
+								<b>1-D DCT Domain Analysis for JPEG Double Compression Detection</b>. In Proceedings of
+								International Conference on Image Analysis and Processing (ICIAP)
+							</li>
+							<li>
+								<a class="paper-link"  href="https://ieeexplore.ieee.org/document/8803502" target="_blank"><i class="ti-file "></i> PAPER</a> | Guarnera Francesco, Allegra Dario, Giudice Oliver, Stanco Filippo, Battiato Sebastiano
+								(2019). <b>A New Study On Wood Fibers Textures: Document Authentication Through LBP
+								Fingerprint</b>. In Proceedings of 2019 IEEE International Conference on Image Processing
+							</li>
+                           </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-12">
+                    <div class="card">
+               				<div class="card-header">
+                            <div class="mt-2">
+                                <h4>Submitted</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            
+                           <ul>
+                           	
+							
+                           </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-12">
+                    <div class="card">
+               				<div class="card-header">
+                            <div class="mt-2">
+                                <h4>Preprints</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            
+                           <ul>
+                           	<li>Battiato Sebastiano, Guarnera Francesco, Guccio Calogero, Pignataro Giacomo, Vidoli
+								Francesco (2022). <b>One for all? Assessing quality of Italian hospitals with the “Benefit of
+								the Doubt” composite indicator methods</b>
+							</li>
+							<li>Rondinella Alessia, Guarnera Francesco, Battiato Sebastiano, Pappalardo Francesco,
+								Maimone Davide (2022). <b>Multiple sclerosis lesion segmentation framework for brain MRI</b>
+							</li>
+							
+                           </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-12">
+                    <div class="card">
+               				<div class="card-header">
+                            <div class="mt-2">
+                                <h4>Ph.D. Thesis</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            
+                           <ul>
+                           	<li><a class="paper-link"  href="https://www.iris.unict.it/retrieve/f872485b-58c3-4b43-8e87-a40b1a909424/PHD_THESIS_FRANCESCO_GUARNERA.pdf" target="_blank"><i class="ti-file "></i> PAPER</a> | Guarnera Francesco (2022). <b>Advanced Methods for Image Forensics: First
+								Quantization Estimation and Document Authentication</b>.
+							</li>
+							
+                           </ul>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col-md-12 col-lg-12">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Research Groups</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2022 - Present</h6>
+                            <P class="subtitle">Department of Medical and Surgical Sciences of the University of Catania on a data collection and analysis project <br />
+                            <b>TOPIC</b>: Data Analysis<br />
+							<u>Contact person</u>: Prof. Antonella Paola Agodi</P>
+                            <hr>
+
+                            <h6 class="title text-danger">2021 - Present</h6>
+                            <P class="subtitle">Rizzoli Orthopedic Institute of Bologna, iCTLab srl and University of Messina for medical <br />
+                        	<b>TOPIC</b>: Medical Imaging<br />
+							<u>Contact person</u>: Prof. Francesco Traina</P>
+                            <hr>
+
+                            <h6 class="title text-danger">2021 - Present</h6>
+                            <P class="subtitle">The COMBINE Group (<a href="https://www.combinegroup.org/" target="_blank">https://www.combinegroup.org</a>) and the Neurology unit of the Garibaldi hospital in Catania. Resonance analysis magnetic fields of patients suffering from multiple sclerosis as part of the "In Silico World: Lowering barriers to ubiquitous adoption of In Silico Trials - ISW "HORIZON2020 - Topic SC1-DTH-06-2020 - "RIA-Research and Innovation action" - call H2020-SC1-DTH2018-2020 / H2020-SC1-DTH-2020-1 (Digital  ransformation in Health and Care), Grant agreement n. 101016503 - Project no. 101016503 - CUP E65F21000170005ment of Medical and Surgical Sciences of the University of Catania on a data collection and analysis project <br />
+                        	<b>TOPIC</b>: Medical Imaging<br />	
+							<u>Contact person</u>: Prof. Francesco Pappalardo</P>
+                            <hr>
+
+                            <h6 class="title text-danger">2021 - Present</h6>
+                            <P class="subtitle">R&D of iCTLab (spin-off of the University of Catania) <br />
+                            <b>TOPIC</b>: Digital Forensics / Computer Vision</P><br />	
+							<u>Contact person</u>: Dr. Oliver Giudice</P>
+                            <hr>
+
+                            <h6 class="title text-danger">2021 - Present</h6>
+                            <P class="subtitle">Department of Economics of the University of Catania on Big Data analysis project of Italian hospitals for quality assessment <br />
+                            <b>TOPIC</b>: Data Analysis<br />	
+							<u>Contact person</u>: Prof. Giacomo Pignataro</P>
+                            <hr>
+
+                            <h6 class="title text-danger">2019 - Present</h6>
+                            <P class="subtitle">Department of Mathematics and Computer Science of the University of Cagliari <br />
+                            <b>TOPIC</b>: Digital Forensics<br />	
+							<u>Contact person</u>: Prof. Giovanni Puglisi</P>
+                            <hr>
+
+                            <h6 class="title text-danger">2019 - 2020</h6>
+                            <P class="subtitle">Center of Excellence for the acceleration of HArm Reduction - CoEHAR directed by prof. Riccardo Polosa, for research activities on devices wearable able to recognize the smoking activity <br />
+                            <b>TOPIC</b>: Artificial Intelligence<br />	
+							<u>Contact person</u>: Prof. Sebastiano Battiato</P>
+                            <hr>
+
+                            <h6 class="title text-danger">2019 - 2020</h6>
+                            <P class="subtitle">Polytechnic of Turin and the Ferrero R&D department s.p.a for research activities on the automation of counting and classification of pollen in plantations<br />
+                            <b>TOPIC</b>: Artificial Intelligence<br />	
+							<u>Contact person</u>: Prof. Sebastiano Battiato</P>
+                            <hr>
+
+                            <h6 class="title text-danger">2019 - 2020</h6>
+                            <P class="subtitle">6 months visiting at University of Hertfordshire, Hatfield, Hertfordshire, United Kingdom 
+                        	<br />
+                            <b>TOPIC</b>: Computer Vision<br />	
+							<u>Contact person</u>: Prof. Dr. Salvatore Livatino</P>
+                            <hr>
+
+                            <h6 class="title text-danger">2018 - 2022</h6>
+                            <P class="subtitle">Carabinieri Grouping of Scientific Investigations, RIS of Messina <br />
+                            <b>TOPIC</b>: Digital Forensics / Computer Vision<br />	
+							<u>Contact person</u>: Dr. Angelo Salici</P>
+                            <hr>
+
+                             <h6 class="title text-danger">2017 - Present</h6>
+                            <P class="subtitle">Member of the IPLab Research Group <br />
+                            <b>TOPIC</b>: Computer Vision<br />	
+							<u>Contact person</u>: Prof. Sebastiano Battiato</P>
+                            <hr>
+
+
+                           
+                        </div>
+                    </div>
+                </div>
+                
+        </div>
+    </section>-->
+
+
+	<!--<section class="section" id="teaching">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">Teaching</span></h2>
+            <div class="row">
+
+            	<div class="col-md-12 col-lg-12">
+                    <div class="card" style="border: none">
+               
+                        <div class="card-body">
+                            
+                           <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded shadow mb-3">
+					         <div class="container">
+					            <h5 style="color:white;margin-bottom: 0px">Courses</h3>
+					            
+					         </div>
+					      </nav>
+					      <div>
+					      	<h6>2023</h5>
+					      	<ul>
+					      		<li>Laboratorio di Computer Vision (3CFU). Bachelor degree course. Department of Math and Computer Science. University of Catania</li>
+								<li>Laboratorio di Programmazione 2 (3CFU). Master degree course. Department of Math and Computer Science. University of Catania</li>
+					      	</ul>
+					      </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-12">
+                    <div class="card" style="border: none">
+               
+                        <div class="card-body">
+                            
+                           <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded shadow mb-3">
+					         <div class="container">
+					            <h5 style="color:white;margin-bottom: 0px">Lectures and seminars</h3>
+					            
+					         </div>
+					      </nav>
+					      <div>
+					      	<h6>2022</h5>
+					      	<ul>
+					      		<li>Master “Master Cybersecurity”, 3 hours seminar, title "Analisi dell'algoritmo JPEG per le investigazioni digitali"</li>
+								<li>Degree course in Computer Science, University of Catania: 3 hours seminar, title "Analisi dell'algoritmo JPEG per le investigazioni digitali"</li>
+					      	</ul>
+					      	<h6>2019</h5>
+					      	<ul>
+					      		<li>Degree course in Computer Science, University of Catania: 1 hour seminar, title "Analisi dell'algoritmo JPEG per le investigazioni digitali"</li>
+					      	</ul>
+					      </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-12">
+                    <div class="card" style="border: none">
+               
+                        <div class="card-body">
+                            
+                           <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded shadow mb-3">
+					         <div class="container">
+					            <h5 style="color:white;margin-bottom: 0px">Co-supervisor of thesis</h3>
+					            
+					         </div>
+					      </nav>
+					      <div>
+					      	<h6>2023</h5>
+					      	<ul>
+					      		<li>Laura De Natale. Corso di Laurea Triennale in Informatica, , Dipartimento di Matematica e Informatica,
+									Università degli Studi di Catania, Italia.  "". Supervisor: Prof. Sebastiano Battiato. Co-supervisor: Ing. Oliver Giudice, Dr. Francesco Guarnera, Dr. Chiara Falcone
+					      		</li>
+					      	</ul>
+					      	<h6>2022</h5>
+					      	<ul>
+					      		<li>Giorgia Messina. Corso di Laurea Triennale in Ingegneria Informatica, Dipartimento di Ingegneria Elettrica Elettronica e Informatica, Università degli Studi di Catania, Italia.  "Procedure operative e best practice nella Mobile Forensics". Supervisor: Prof. Sebastiano Battiato. Co-supervisor: Dr. Francesco Guarnera
+					      		</li>
+					      	</ul>
+					      	<h6>2019</h5>
+					      	<ul>
+					      		<li>Salvatore Corsaro. Corso di Laurea Triennale in Informatica, Dipartimento di Matematica e Informatica,
+									Università degli Studi di Catania, Italia.  "Sviluppo di software gestionale per ambienti investigativi ad uso forense". Supervisor: Prof. Sebastiano Battiato. Co-supervisor: Dr. Francesco Guarnera
+								</li>
+					      	</ul>
+					      </div>
+                        </div>
+                    </div>
+                </div>
+                
+        </div>
+    </section>-->
+
+
+    <!--<section class="section" id="other_activities">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">Other activities</span></h2>
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="card">
+               				<div class="card-header">
+                            <div class="mt-2">
+                                <h4>Speaker at conferences and workshops</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6>2021</h5>
+					      	<ul>
+					      		<li>GTTI workshop “Deep Signal Processing for a safer world”, VIRTUAL</li>
+					      	</ul>
+					      	<h6>2019</h5>
+					      	<ul>
+					      		<li>MULTI-modal Imaging of FOREnsic SciEnce Evidence tools for Forensic Science
+(MULTIFORESEE) conference, Catania, Italy</li>
+					      		<li>International Conference on Image Processing (ICIP), Taipei, Taiwan</li>
+					      		<li>International Conference on Image Analysis and Processing (ICIAP), Trento, Italy</li>
+					      		<li>SMAU Milano, presentazione progetto DeepFake dello Spin- off iCTLab</li>
+					      	</ul>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-12">
+                    <div class="card">
+               				<div class="card-header">
+                            <div class="mt-2">
+                                <h4>International challenge</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6>2021</h5>
+					      	<ul>
+					      		<li>Organizing Committee "Deepfake Images Detection and Reconstruction Challenge"
+(<a href="https://iplab.dmi.unict.it/deepfakechallenge" target="_blank">https://iplab.dmi.unict.it/deepfakechallenge</a>) held at the International Conference on Image Analysis and Processing (ICIAP), 2021</li>
+					      	</ul>
+					      	<h6>2020</h5>
+					      	<ul>
+					      		<li>Organizing Committee "Pollen Grain Classification Challenge" held at the International Conference on Image Processing (ICIP), 2020</li>
+					      	</ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-12">
+                    <div class="card">
+               				<div class="card-header">
+                            <div class="mt-2">
+                                <h4>Summer schools</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6>2022</h5>
+					      	<ul>
+					      		<li>International Forensics Summer School (IFOSS) <a href="https://www.ifoss.it/" target="_blank">https://www.ifoss.it/</a>, Scicli (Ragusa), Italy (organizing committee member). </li>
+					      	</ul>
+					      	<h6>2019</h5>
+					      	<ul>
+					      		<li>International Computer Vision Summer School (ICVSS), Scicli (Ragusa), Italy.
+							(student and organizational team member)</li>
+					      	</ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-12">
+                    <div class="card">
+               				<div class="card-header">
+                            <div class="mt-2">
+                                <h4>Reviewer for Journal and Conferences </h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6>FROM 2022</h5>
+					      	<ul>
+					      		<li>
+					      			AIxIA: International Conference of the Italian Association from Artificial Intelligence
+					      		</li>
+					      		<li>
+					      			 ICVM: International Conference on Machine Vision
+					      		</li>
+					      	</ul>
+					      	<h6>FROM 2021</h5>
+					      	<ul>
+					      		<li>
+					      			Frontiers in Computer Science
+					      		</li>
+					      		<li>
+					      			Journal on Computing and Cultural Heritage (JOCCH)
+					      		</li>
+					      	</ul>
+					      	<h6>FROM 2020</h5>
+					      	<ul>
+					      		<li>
+					      			Elsevier Pattern Recognition Letters
+					      		</li>
+					      		<li>
+					      			Springer Multimedia Tools and Applications (MTAP)
+					      		</li>
+					      		<li>
+					      			IEEE Transaction on Image Processing (TIP)
+					      		</li>
+					      		<li>
+					      			Springer Machine Vision and Applications (MVAP)
+					      		</li>
+					      		<li>
+					      			IEEE Transaction on Informations Forensics and Security (TIFS)
+					      		</li>
+					      		<li>
+					      			ICPR: International Conference on Pattern Recognition
+					      		</li>
+					      		<li>
+					      			AIM: Advances in Image Manipulation workshop and challenges at ECCV
+					      		</li>
+					      	</ul>
+					      	
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-12">
+                    <div class="card">
+               				<div class="card-header">
+                            <div class="mt-2">
+                                <h4>Working experience </h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                           <li>
+	                           	<b>01/04/2022 – ongoing</b>:
+	                           	Department of Pharmaceutical Sciences of the University of Catania: research fellow, project “Modellazione tramite	metodologie Agent Based Modeling (ABM) di In Silico Trials per la valutazione dei farmaci”
+							</li>
+							<li>
+								<b>01/09/2019 – 31/03/2022</b>: 
+									Kitesun srl. Web designer/developer of the <a target="_blank" href="https://www.paytourist.com/">PayTourist</a> application (based on Laravel framework) for the collection of the tourist tax.
+							</li>
+							<li>
+								<b>2017 – 2021</b>: Gruppo di Studio di ecografia pediatrica della società italiana pediatria (GSEP).  Web designer/developer of the study group training platform.
+							</li>
+							<li>
+								<b>2016 – 2018</b>: 
+								I.T.S. srls. Web designer/developer on frameworks Laravel of business applications.
+							</li>
+							<li><b>2015 – 2016</b>: 
+								Aziendecom srl.Technical area manager, sales area technical support.
+							</li>
+							<li>
+								<b>2008 – 2015</b>: 
+								Comservices srl. Full stack developer
+							</li>
+						</ul>
+                        </div>
+                    </div>
+                </div>
+                
+        </div>
+    </section>-->
+
+
+    
+
+    <!--<section class="section" id="resume">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Expertise</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2017 - Present</h6>
+                            <P>UX Developer</P>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
+                            <hr>
+                            <h6 class="title text-danger">2016 - 2017</h6>
+                            <P>Front-end Developer</P>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
+                            <hr>
+                            <h6 class="title text-danger">2015 - 2016</h6>
+                            <P>UX Designer</P>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Education</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2017 - Present</h6>
+                            <P>B.E Computer Engineering</P>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error corrupti recusandae obcaecati odit repellat ducimus cum, minus tempora aperiam at.</P>
+                            <hr>
+                            <h6 class="title text-danger">2016 - 2017</h6>
+                            <P>Diploma in Computer Engineering</P>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, id officiis quas placeat quia voluptas dolorum rem animi nostrum quae.aliquid repudiandae saepe!.</P>
+                            <hr>
+                            <h6 class="title text-danger">2015 - 2016</h6>
+                            <P>High School Degree</P>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Skills</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>hTL5 &amp; CSS3</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>JavaScript</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>PHP</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>SQL</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Laborum</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Tempora</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Languages</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>English</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>French</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Spanish</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 67%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-dark text-center">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="row ">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">500</h1>
+                            <p class="text-light mb-1">Hours Worked</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">50K</h1>
+                            <p class="text-light mb-1">Project Finished</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">200K</h1>
+                            <p class="text-light mb-1">Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-heart-broken icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">2k</h1>
+                            <p class="text-light mb-1">Coffee Drinked</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="service">
+        <div class="container">
+            <h2 class="mb-5 pb-4"><span class="text-danger">My</span> Services</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-vector text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Ullam</h5>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-write text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Asperiores</h5>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-package text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Tempora</h5>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-map-alt text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Provident</h5>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-bar-chart text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Consectetur</h5>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-support text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Veritatis</h5>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-custom-gray" id="price">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">Packs</span> Pricing</h1>
+            <div class="row align-items-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="price-card text-center mb-4">
+                        <h3 class="price-card-title">Free</h3>
+                        <div class="price-card-cost">
+                            <sup class="ti-money"></sup>
+                            <span class="num">0</span>
+                            <span class="date">MO</span>
+                        </div>
+                        <ul class="list">
+                            <li class="list-item">5 <span class="text-muted">Project</span></li>
+                            <li class="list-item">1GB <span class="text-muted">Storage</span></li>
+                            <li class="list-item"><span class="text-muted">No Domain</span></li>
+                            <li class="list-item">1 <span class="text-muted">User</span></li>
+                        </ul>
+                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="price-card text-center mb-4">
+                        <h3 class="price-card-title">Basic</h3>
+                        <div class="price-card-cost">
+                            <sup class="ti-money"></sup>
+                            <span class="num">10</span>
+                            <span class="date">MO</span>
+                        </div>
+                        <ul class="list">
+                            <li class="list-item">50 <span class="text-muted">Project</span></li>
+                            <li class="list-item">10GB <span class="text-muted">Storage</span></li>
+                            <li class="list-item">1<span class="text-muted">Domain</span></li>
+                            <li class="list-item">5 <span class="text-muted">User</span></li>
+                        </ul>
+                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="price-card text-center price-card-requried mb-4">
+                        <h3 class="price-card-title">Exclusive</h3>
+                        <div class="price-card-cost">
+                            <sup class="ti-money"></sup>
+                            <span class="num">25</span>
+                            <span class="date">MO</span>
+                        </div>
+                        <ul class="list">
+                            <li class="list-item">150 <span class="text-muted">Project</span></li>
+                            <li class="list-item">15GB <span class="text-muted">Storage</span></li>
+                            <li class="list-item">5<span class="text-muted"> Domain</span></li>
+                            <li class="list-item">15<span class="text-muted">User</span></li>
+                        </ul>
+                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="price-card text-center mb-4">
+                        <h3 class="price-card-title">Pro</h3>
+                        <div class="price-card-cost">
+                            <sup class="ti-money"></sup>
+                            <span class="num">99</span>
+                            <span class="date">MO</span>
+                        </div>
+                        <ul class="list">
+                            <li class="list-item">500 <span class="text-muted">Project</span></li>
+                            <li class="list-item">1000GB <span class="text-muted">Storage</span></li>
+                            <li class="list-item">10<span class="text-muted"> Domain</span></li>
+                            <li class="list-item">Unlimite<span class="text-muted">User</span></li>
+                        </ul>
+                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section bg-dark py-5">
+        <div class="container text-center">
+            <h2 class="text-light mb-5 font-weight-normal">I Am Available For FreeLance</h2>
+            <button class="btn bg-primary w-lg" >Hire me</button>
+        </div>
+    </section>
+
+    <section class="section bg-custom-gray" id="portfolio">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
+            <div class="portfolio">
+                <div class="filters">
+                    <a href="#" data-filter=".new" class="active">
+                        New
+                    </a>
+                    <a href="#" data-filter=".advertising">
+                        Advertising
+                    </a>
+                    <a href="#" data-filter=".branding">
+                        Branding
+                    </a>
+                    <a href="#" data-filter=".web">
+                        Web
+                    </a>
+                </div>
+                <div class="portfolio-container"> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">WEB</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">WEB</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div> 
+                        </div>                         
+                    </div>
+                    <div class="col-md-6 col-lg-4 advertising new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ADVERSTISING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>    
+                        </div>              
+                    </div> 
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">WEB</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 advertising"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ADVERSITING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">WEB</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+                    <div class="col-md-6 col-lg-4 advertising new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ADVERSITING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                    <div class="col-md-6 col-lg-4 advertising new"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ADVERTISING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>
+                                
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                    
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                      
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                   
+                    </div>
+                </div> 
+            </div>  
+        </div>            
+    </section>
+
+    <section class="section" id="blog">
+        <div class="container">
+            <h2 class="mb-5">Latest <span class="text-danger">News</span></h2>
+            <div class="row">
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog1.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Consectetur adipisicing elit</h6>
+
+                        <p class="post-details">
+                            <a href="#">By: Admin</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> 234</a>
+                            <a href="#"><i class="ti-comment"></i> 123</a>
+                        </p>
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nesciunt qui sit velit delectus voluptates, repellat ipsum culpa id deleniti. Rerum debitis facilis accusantium neque numquam mollitia modi quasi distinctio.</p>
+
+                        <p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b></p>
+                        <p>Magnam in repellat enim harum omnis aperiam! Explicabo illo, commodi, dolor blanditiis cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.</p>
+
+                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Explicabo illo</h6>
+
+                        <p class="post-details">
+                            <a href="#">By: Admin</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> 456</a>
+                            <a href="#"><i class="ti-comment"></i> 264</a>
+                        </p>
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
+
+                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h4 class="title">Porro Quisqua</h4>
+
+                        <p class="post-details">
+                            <a href="#">By: Admin</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> 431</a>
+                            <a href="#"><i class="ti-comment"></i> 312</a>
+                        </p>
+                        
+                        <p> consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
+
+                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="section contact" id="contact">
+        <div id="map" class="map"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="contact-form-card">
+                        <h4 class="contact-title">Send a message</h4>
+                        <form action="">
+                            <div class="form-group">
+                                <input  class="form-control" type="text" placeholder="Name *" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="email" placeholder="Email *" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id=" placeholder="Message *" rows="7" required></textarea>
+                            </div>
+                            <div class="form-group ">
+                                <button type="submit" class="form-control btn btn-primary" >Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info-card">
+                        <h4 class="contact-title">Get in touch</h4>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-mobile icon-md"></i>
+                            </div>
+                            <div class="col-10 ">
+                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+ (123) 456-789</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-map-alt icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Address :<br> <span class="text-muted">12345 Fake ST NoWhere AB Country.</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-envelope icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Email :<br> <span class="text-muted">info@website.com</span></h6>
+                            </div>
+                        </div>
+                        <ul class="social-icons pt-4">
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer py-3">
+        <div class="container">
+            <p class="small mb-0 text-light">
+                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span></a> 
+            </p>
+        </div>
+    </footer>-->
+
+	<!-- core  -->
+    <script src="./AADD-2025 Challenge_files/jquery-3.4.1.js"></script>
+    <script src="./AADD-2025 Challenge_files/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="./AADD-2025 Challenge_files/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="./AADD-2025 Challenge_files/isotope.pkgd.js"></script>
+    
+    <!-- Google mpas -->
+    
+    <!-- JohnDoe js -->
+    <script src="./AADD-2025 Challenge_files/script.js"></script>
+
+
+
+</div></body></html>
