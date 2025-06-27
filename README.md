@@ -96,7 +96,7 @@ Participants were provided with a dataset divided into **sixteen subsets**:
 
 ## 📥 Evaluation Resources
 
-**Final Evaluation Scripts** [Download here](https://bit.ly/finalevalscript)
+**Final Evaluation Scripts** [Download here](scripts)
 
 ## 🏆 Results & Rankings
 
