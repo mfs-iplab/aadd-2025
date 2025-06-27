@@ -96,8 +96,6 @@ Participants were provided with a dataset divided into **sixteen subsets**:
 
 ## 📥 Evaluation Resources
 
-**Partial Evaluation Script**: [Download here](https://iplab.dmi.unict.it/mfs/acm-aadd-challenge-2025/assets/imgs/AADD-2025-partial-test.tgz)
-
 **Final Evaluation Scripts** [Download here](https://bit.ly/finalevalscript)
 
 ## 🏆 Results & Rankings
