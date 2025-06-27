@@ -200,4 +200,8 @@ Powered by the [Multimedia Security and Forensics](https://iplab.dmi.unict.it/mf
 
 ---
 
-![Logos](/assets/images/loghiunictiplab2.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/assets/images/loghiunictiplab2.png">
+  <source media="(prefers-color-scheme: light)" srcset="/assets/images/loghiunictiplabblack.png">
+  <img alt="Logos" src="/assets/images/loghiunictiplab2.png">
+</picture>
