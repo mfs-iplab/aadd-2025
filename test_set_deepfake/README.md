@@ -1,0 +1,1 @@
+Please download the testing pictures to be attacked from [here](https://studentiunict-my.sharepoint.com/:f:/g/personal/rggcdv96t22a494e_studium_unict_it/EpPNSIk_3fhNl3tgg575_R0B_3B4nbawj4GzyYG09ghaSQ?e=Pfcu4h)
