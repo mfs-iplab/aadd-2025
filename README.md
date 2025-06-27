@@ -10,11 +10,11 @@
 
 ## 🎯 Overview
 
-The AADD-2025 Challenge investigated adversarial vulnerabilities of deepfake detection models by generating adversarial perturbed deepfake images that evade state-of-the-art classifiers while maintaining high visual similarity to the original deepfake content. Given the increasing reliance on deepfake detectors in forensic analysis and content moderation, ensuring their robustness against adversarial attacks is of paramount importance.
+The AADD-2025 Challenge investigated adversarial vulnerabilities of deepfake detection models by generating adversarial perturbed deepfake images that evade standard classifiers while maintaining high visual similarity to the original deepfake content. Given the increasing reliance on deepfake detectors in forensic analysis and content moderation, ensuring their robustness against adversarial attacks has relevant importance.
 
 ## 🎪 Challenge Description
 
-The goal of this challenge was to expose and address vulnerabilities in current deepfake detection systems by designing adversarial attacks that alter deepfake images—rendering them unrecognizable as synthetic content to 4 proposed classifiers—while preserving high visual similarity to the original images.
+The goal of this challenge was to expose and address vulnerabilities in current deepfake detection systems by designing adversarial attacks that alter deepfake images, rendering them unrecognizable as synthetic content to 4 proposed classifiers, **preserving high visual similarity** to the original images.
 
 ## 📊 Dataset Structure
 
