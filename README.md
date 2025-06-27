@@ -28,6 +28,64 @@ Participants were provided with a dataset divided into **sixteen subsets**:
 - **4 GAN-based models** (low quality)
 - **4 Diffusion-based models** (low quality)
 
+```
+- Dataset
+├── train
+│   ├── fake
+│   │   ├── hq
+│   │   │   ├── Adobe Firefly
+│   │   │   ├── Deep AI
+│   │   │   ├── Flux.1.1 Pro
+│   │   │   ├── Hotpot AI
+│   │   │   ├── Nvidia Sana PAG
+│   │   │   ├── Stable Diffusion 3.5
+│   │   │   ├── StyleGAN2
+│   │   │   ├── StyleGAN3
+│   │   │   └── Tencent Hunyuan
+│   │   └── lq
+│   │       ├── Deep AI
+│   │       ├── Flux.1
+│   │       ├── Freepik
+│   │       ├── Hotpot AI
+│   │       ├── Nvidia Sana PAG
+│   │       ├── Stable Diffusion Attend and Excite
+│   │       ├── StyleGAN
+│   │       ├── StyleGAN3
+│   │       └── Tencent Hunyuan
+│   └── real
+│       ├── hq
+│       │   └── ffhq
+│       └── lq
+│           └── celeba_hq
+└── test
+    ├── fake
+    │   ├── hq
+    │   │   ├── Adobe Firefly
+    │   │   ├── Deep AI
+    │   │   ├── Flux.1.1 Pro
+    │   │   ├── Hotpot AI
+    │   │   ├── Nvidia Sana PAG
+    │   │   ├── Stable Diffusion 3.5
+    │   │   ├── StyleGAN2
+    │   │   ├── StyleGAN3
+    │   │   └── Tencent Hunyuan
+    │   └── lq
+    │       ├── Deep AI
+    │       ├── Flux.1
+    │       ├── Freepik
+    │       ├── Hotpot AI
+    │       ├── Nvidia Sana PAG
+    │       ├── Stable Diffusion Attend and Excite
+    │       ├── StyleGAN
+    │       ├── StyleGAN3
+    │       └── Tencent Hunyuan
+    └── real
+        ├── hq
+        │   └── ffhq
+        └── lq
+            └── celeba_hq
+```
+
 **Note**: Participants had to focus on the entire dataset across all subsets.
 
 ## 📋 Submission Requirements
