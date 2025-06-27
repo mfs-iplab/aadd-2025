@@ -1,0 +1,25 @@
+original_root: test_set_deepfake/Dataset/test/fake          
+adv_root: adversarial_dataset/Dataset/test/fake     
+
+models_dir: ../.models                       
+
+classifiers:                              
+  - resnet50
+  - densenet121
+  - vit_b_16
+  - densenet121_dct
+
+dct_log_scale: true
+
+weights:
+  resnet50:    1.0
+  densenet121: 1.0
+  vit_b_16:    1.0
+  DenseNet121_best: 1.0
+
+save_json: results_group_name.json                  
+
+
+aggregate: sum  # "mean"  → divide for (N · |C|) classifiers  |  "sum" → sum total
+
+device: auto             
