@@ -151,7 +151,7 @@ The top 3 teams were invited to submit full-length papers describing their metho
 | **Giovanni Puglisi** | Associate Professor | puglisi@unica.it | Department of Mathematics and Informatics, University of Cagliari, Italy |
 | **Zahid Akhtar** | Associate Professor | akhtarz@sunypoly.edu | State University of New York Polytechnic Institute, USA |
 
-### Dataset Committee
+### Technical Committee
 | Name | Role | Email | Affiliation |
 |------|------|-------|-------------|
 | **Mirko Casu** | PhD Student | mirko.casu@phd.unict.it | Department of Mathematics and Computer Science, University of Catania, Italy |
