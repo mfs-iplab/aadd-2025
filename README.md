@@ -106,19 +106,19 @@ The challenge ended with strong global participation. Here are the final standin
 
 | Rank | Team Name | Organization/Institution | Final Score |
 |------|-----------|-------------------------|-------------|
-| 🥇 1st | **MR-CAS** | University of Chinese Academy of Sciences | **2740** |
-| 🥈 2nd | **Safe AI** | UNIST (Ulsan National Institute of Science and Technology) | **2709** |
-| 🥉 3rd | **RoMa** | Fraunhofer SIT \| ATHENE Center | **2679** |
-| 4th | GRADIANT | Gradiant | 2631 |
-| 5th | DASH | Sungkyunkwan University | 2618 |
-| 6th | SecureML | University of Cagliari | 2490 |
-| 7th | MICV | Ant Group | 2434 |
-| 8th | WHU_PB | Wuhan University | 2354 |
-| 9th | The Adversaries | Singapore Institute of Technology | 2341 |
-| 10th | DeFakePol | Samsung Research Poland | 1665 |
-| 11th | False Negative | The Hong Kong Polytechnic University | 1602 |
-| 12th | VYAKRITI 2.0 | Apex Institute of technology Chandigarh University | 1041 |
-| 13th | MILab | University of Science and Technology of China | 110 |
+| 🥇 1st | **MR-CAS** | 🇨🇳 University of Chinese Academy of Sciences | **2740** |
+| 🥈 2nd | **Safe AI** | 🇰🇷 UNIST (Ulsan National Institute of Science and Technology) | **2709** |
+| 🥉 3rd | **RoMa** | 🇩🇪 Fraunhofer SIT \| ATHENE Center | **2679** |
+| 4th | 🇪🇸 GRADIANT | Gradiant | 2631 |
+| 5th | 🇰🇷 DASH | Sungkyunkwan University | 2618 |
+| 6th | 🇮🇹 SecureML | University of Cagliari | 2490 |
+| 7th | 🇨🇳 MICV | Ant Group | 2434 |
+| 8th | 🇨🇳 WHU_PB | Wuhan University | 2354 |
+| 9th | 🇸🇬 The Adversaries | Singapore Institute of Technology | 2341 |
+| 10th | 🇵🇱 DeFakePol | Samsung Research Poland | 1665 |
+| 11th | 🇨🇳 False Negative | The Hong Kong Polytechnic University | 1602 |
+| 12th | 🇮🇳 VYAKRITI 2.0 | Apex Institute of technology Chandigarh University | 1041 |
+| 13th | 🇨🇳 MILab | University of Science and Technology of China | 110 |
 
 ## 📊 Timeline
 
