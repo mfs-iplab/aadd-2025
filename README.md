@@ -129,7 +129,7 @@ The AADD-2025 Challenge followed this timeline:
 - ✅ **April 10, 2025**: Test Set and Classificator Release  
 - ✅ **June 15, 2025**: Final Submission Deadline  
 - ✅ **June 22, 2025**: Leaderboard Publication and Rankings Release
-- ⏳ **June 30, 2025**: Paper Submission Deadline (Top 3 Teams Only)
+- ✅ **June 30, 2025**: Paper Submission Deadline (Top 3 Teams Only)
 - ⏳ **July 24, 2025**: Announcement regarding full paper submission
 - ⏳ **August 01, 2025**: Camera ready - Grand Challenge Solutions (Top 3 Teams Only)
 - ⏳ **ACM Multimedia 2025**: Conference & Winners Recognition
