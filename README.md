@@ -181,6 +181,17 @@ The top 3 teams were invited to submit full-length papers describing their metho
 }
 ```
 
+If you use or refer to this challenge, please cite our ACM Multimedia 2025 paper:
+
+```bibtex
+@inproceedings{battiato2025adversarial,
+  title={Adversarial Attacks on Deepfake Detectors: A Challenge in the Era of AI-Generated Media (AADD-2025)},
+  author={Battiato, Sebastiano and Casu, Mirko and Guarnera, Francesco and Guarnera, Luca and Puglisi, Giovanni and Pontorno, Orazio and Ragaglia, Claudio Vittorio and Akhtar, Zahid},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={13714--13719},
+  year={2025}
+}
+
 ## 🌐 Related Resources
 
 - [ACM Multimedia 2025 Conference](https://acmmm2025.org/)
