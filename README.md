@@ -191,6 +191,7 @@ If you use or refer to this challenge, please cite our ACM Multimedia 2025 paper
   pages={13714--13719},
   year={2025}
 }
+```
 
 ## 🌐 Related Resources
 
