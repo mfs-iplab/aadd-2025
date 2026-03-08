@@ -130,9 +130,9 @@ The AADD-2025 Challenge followed this timeline:
 - ✅ **June 15, 2025**: Final Submission Deadline  
 - ✅ **June 22, 2025**: Leaderboard Publication and Rankings Release
 - ✅ **June 30, 2025**: Paper Submission Deadline (Top 3 Teams Only)
-- ⏳ **July 24, 2025**: Announcement regarding full paper submission
-- ⏳ **August 01, 2025**: Camera ready - Grand Challenge Solutions (Top 3 Teams Only)
-- ⏳ **ACM Multimedia 2025**: Conference & Winners Recognition
+- ✅ **July 24, 2025**: Announcement regarding full paper submission
+- ✅ **August 01, 2025**: Camera ready - Grand Challenge Solutions (Top 3 Teams Only)
+- ✅ **ACM Multimedia 2025**: Conference & Winners Recognition
 
 ## 📝 Publication Opportunities
 
@@ -202,7 +202,7 @@ If you use or refer to this challenge, please cite our ACM Multimedia 2025 paper
 - **University of Cagliari** - [Department of Mathematics and Informatics](https://web.unica.it/unica/en/dip_matinfo.page)
 - **State University of New York Polytechnic Institute** - [Website](https://sunypoly.edu/)
 
-© 2025 [University of Catania](https://www.unict.it/en).  
+© 2026 [University of Catania](https://www.unict.it/en).  
 Powered by the [Multimedia Security and Forensics](https://iplab.dmi.unict.it/mfs/) group of the [Image Processing Laboratory (IPLAB)](https://iplab.dmi.unict.it/).
 
 ## 🏷️ Keywords
