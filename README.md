@@ -170,14 +170,13 @@ The top 3 teams were invited to submit full-length papers describing their metho
 **Dataset Attribution**: Part of this challenge dataset is based on the WILD dataset. If you use the data, please also cite:
 
 ```bibtex
-@misc{bongini2025wildnewinthewildimage,
-      title={WILD: a new in-the-Wild Image Linkage Dataset for synthetic image attribution}, 
-      author={Pietro Bongini and Sara Mandelli and Andrea Montibeller and Mirko Casu and Orazio Pontorno and Claudio Vittorio Ragaglia and Luca Zanchetta and Mattia Aquilina and Taiba Majid Wani and Luca Guarnera and Benedetta Tondi and Giulia Boato and Paolo Bestagini and Irene Amerini and Francesco De Natale and Sebastiano Battiato and Mauro Barni},
-      year={2025},
-      eprint={2504.19595},
-      archivePrefix={arXiv},
-      primaryClass={cs.MM},
-      url={https://arxiv.org/abs/2504.19595}, 
+@inproceedings{bongini2025wild,
+  title={WILD: a new in-the-Wild Image Linkage Dataset for synthetic image attribution},
+  author={Bongini, Pietro and Mandelli, Sara and Montibeller, Andrea and Casu, Mirko and Pontorno, Orazio and Ragaglia, Claudio Vittorio and Zanchetta, Luca and Aquilina, Mattia and Wani, Taiba Majid and Guarnera, Luca and others},
+  booktitle={2025 International Joint Conference on Neural Networks (IJCNN)},
+  pages={1--8},
+  year={2025},
+  organization={IEEE}
 }
 ```
 
