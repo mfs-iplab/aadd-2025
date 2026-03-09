@@ -1,5 +1,13 @@
 # AADD-2025: Adversarial Attacks on Deepfake Detectors Challenge
 
+<p align="center">
+  <img src="https://img.shields.io/badge/ACM%20MM-2025-blue" alt="ACM MM 2025">
+  <img src="https://img.shields.io/badge/challenge-AADD--2025-red" alt="Challenge AADD-2025">
+  <img src="https://img.shields.io/badge/task-adversarial%20deepfake%20attacks-purple" alt="Task">
+  <img src="https://img.shields.io/badge/dataset-16%20subsets-orange" alt="Dataset">
+  <img src="https://img.shields.io/badge/data-HQ%20%2F%20LQ-informational" alt="HQ/LQ">
+  <img src="https://img.shields.io/badge/models-GAN%20%2B%20Diffusion-9cf" alt="GAN + Diffusion">
+</p>
 <picture>
   <img alt="Logos" src="/assets/images/headernewaadd.jpg">
 </picture>
